@@ -1,0 +1,211 @@
+# Source URL: https://www.eetrend.com/content/2026/100599138.html
+# Content Length: 7881 characters
+# Extracted at: 2026-03-09 14:56:17
+#============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+NVIDIA CEO 黄仁勋与全球技术领导者在 GTC 2026 大会共话 AI 时代 | 电子创新网
+
+
+
+
+
+
+
+
+
+[跳转到主要内容](#main-content)
+[![]()](/)
+Toggle navigation
+
+
+
+
+
+* [快讯](/news)
+* [技术](/technology)
+* [新品](/newproduct)
+* [方案](/solution)
+* [博客](/blog)
+* [视频](/video)
+* [直播](http://v.eetrend.com)
+* [访谈](/interview)
+* [活动](/activity)
+
+* [登录](/user/login?current=node/100599138)
+* [注册](/user/register)
+
+
+
+
+ 
+
+NVIDIA CEO 黄仁勋与全球技术领导者在 GTC 2026 大会共话 AI 时代
+===========================================
+
+![]() 
+winniewei -- 周四, 03/05/2026 - 09:18 
+
+*您将在本次全球领先的* *AI* *大会上看到黄仁勋的主题演讲、**1000* *多场会议以及涵盖整个* *AI* *堆栈的突破性成果*
+
+**![]()**
+
+**加利福尼亚州圣克拉拉****–** **2026** **年** **3** **月** **3** **日****–** NVIDIA 今日宣布，全球备受瞩目的 AI 和加速计算盛会 GTC 将于今年 3 月 16 日至 19 日在加利福尼亚州圣何塞举行。届时来自 190 多个国家及地区的开发者、研究人员、企业领导者和 AI 原生企业等超过 3 万名与会者将齐聚一堂，探索 AI 如何成为关键基础设施，助力新工业时代的到来。
+
+NVIDIA 创始人兼首席执行官黄仁勋表示：“GTC 是 AI 工业时代的中心。AI 不再是单一的突破或应用，而是必不可少的基础设施。每家公司都将拥抱它。每个国家都会建设它。从能源和芯片到基础设施、模型和应用，堆栈的各层面正协同推进，而这一切都将在 GTC 上得到充分展现。”
+
+**GTC 2026** **精彩内容**
+
+**主题演讲：**黄仁勋将于当地时间 3 月 16 日（星期一）上午 11:00 在圣何塞 SAP 中心发表现场主题演讲。主题演讲将介绍 NVIDIA 在整个 AI 堆栈 ，包括从加速计算和 AI 工厂到开放模型、代理式系统和物理 AI 方面的新进展，为未来一年的行业发展指明方向。[在线](https://www.nvidia.com/gtc/keynote/)观看主题演讲无需注册。演讲结束后，您可以点击 [NVIDIA 官网](https://www.nvidia.cn/gtc/keynote/)观看直播回放。
+
+**AI** **五层蛋糕**：GTC 将全面展示涵盖能源、芯片、基础设施、模型和应用在内的 AI 各个层面。通过主题演讲、专题研讨会和演示，与会者将看到每一层如何构建起由合作伙伴、核心技术与专业人才组成的独特生态系统，并见证这些层面如何通过协同作用，推动基础设施的增长，这将是史上规模最大的发展机会之一。
+
+**超过** **1000** **场会议：**从 AI 工厂和大规模推理到机器人、数字孪生、科学计算、量子计算和企业级 AI 部署，GTC 会议将深入探讨如何构建、扩展和优化 AI 堆栈的每一层，以及它们如何在实际生产环境中协同作用。[黄仁勋](https://www.nvidia.cn/gtc/session-catalog/sessions/gtc26-s82480/)[将](https://www.nvidia.cn/gtc/session-catalog/sessions/gtc26-s82480/)与来自 A16Z、AI2、AMP Coalition、Black Forest Labs、Cursor、Reflection AI 和 Thinking Machines Lab 的行业领导者共同探讨开放前沿模型的最新技术与未来发展方向。
+
+**GTC Live** **主题演讲现场预热（****Pregame Show****）：**现场预热将邀请行业领导者探讨加速计算在 AI 之外的广泛应用，以及[人类历史上](https://blogs.nvidia.cn/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/)[规模](https://blogs.nvidia.cn/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/)[最大的基础设施建设](https://blogs.nvidia.cn/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/)背后的五层堆栈架构，并介绍实现其全球部署所需的生态系统。现场参会观众可以在当地时间 3 月 16 日（星期一）上午 8:00 亲临现场参与。演讲嘉宾包括 Perplexity 首席执行官 Aravind Srinivas、LangChain 首席执行官 Harrison Chase、Skild AI 首席执行官 Deepak Pathak、OpenEvidence 首席执行官 Daniel Nadler 和 Mistral AI 首席执行官 Arthur Mensch。
+
+**实战培训和认证：**开发者和工程师可以通过 9 场全天培训、60 多个迷你实战课程和现场认证机会，掌握 AI、加速计算、网络、数据科学和物理 AI 领域的热门技能。此外，我们还提供在线自主培训、教师免费资源和一对一培训咨询，帮助培养支持不断扩大的 AI 基础设施建设所需的专业人才。
+
+**初创公司、投资者和** **AI** **生态系统：**锁定 GTC 2026 [针对中国创业生态的演讲特辑](https://www.nvidia.cn/gtc/startups/)，了解驱动行业变革的最新技术突破，前瞻中国创业生态发展新趋势。超过 240 家 NVIDIA 初创加速计划的初创企业将展示涵盖物理 AI、机器人、生成式 AI 和企业应用的技术。大会还设置了针对初创公司和风险投资项目、与领先风险投资公司举行的 AI Day 以及 NVentures 交流会议，这些都将为 AI 工业堆栈各个层面的创始人和投资者搭建沟通桥梁**。**
+
+**开发者和研究专场：**在 GTC 大会上，开发者可以直接向 NVIDIA 工程师和合作伙伴学习，并融入构建下一代 AI 应用的全球生态系统。技术深度解析、CUDA® 会议和基础设施培训将探索大规模模型训练、推理优化以及在云、边缘和主权环境中的 AI 服务部署。
+
+超过 150 份研究海报演讲将重点介绍全球 AI 社区的前沿研究，涵盖模型创新、机器人、系统架构和新型 AI 应用。
+
+**AI** **将影响全球各行各业：**GTC 期间，圣何塞市中心将被打造成一座覆盖 10 个场馆的 AI 园区。Cesar Chavez Park 将开设日夜市集，汇集美食、娱乐与现场活动。[*All-In Podcast*](https://allin.com/) 将于当地时间 3 月 18 日（星期三）在展厅进行采访。当地时间 3 月 19 日（星期四）为学生和社区开放日，GTC 将以优惠价向更广泛的公众开放。
+
+您还可以通过在线会议目录[获取](https://www.nvidia.cn/gtc/session-catalog/?formats=Virtual)定制化区域性在线的内容和项目。
+
+**全球领导者阵容：**来自构建 AI 工业系统各个层面的机构代表（包括云平台、模型实验室、应用程序开发者和机器人公司）将分享 AI 如何推动各行各业的生产力提升和转型。
+
+参会机构包括 Adobe、思灵机器人（Agile Robots）、Agility Robotics、AI2、AMP Coalition、Black Forest Labs、可画（Canva）、CodeRabbit、Cohere、Crusoe Energy Systems、Cursor、达索系统（Dassault Systèmes）、Decagon、通用汽车（General Motors）、Genspark、谷歌 DeepMind、Hugging Face、IBM Research、idealworks、Inception Labs、强生（Johnson & Johnson）、月之暗面（Kimi）、欧莱雅（L'Oréal）、Lucid Motors、Magic AI、Meta、微软（Microsoft）、Poolside、Physical Intelligence、Reflection AI、Runway、西门子（Siemens）、Shopify、Snap、特斯拉（Tesla）、Together AI、Thinking Machines Lab、Uber、优傲机器人（Universal Robots）、Vention 等。
+
+*\***以上参会机构名称按照英文名首字母排序，排名不分先后*
+
+**NVIDIA** **金融分析师** **Q&A** **会议**
+
+NVIDIA 将于北京时间 3 月 18 日（星期三）凌晨 0:00（太平洋时间 3 月 17 日上午 9:00）为投资者和分析师举办 Q&A 会议。该会议将在 [investor.nvidia.com](https://investor.nvidia.com/home/default.aspx) 上直播。
+
+**关于** **NVIDIA**[NVIDIA](https://www.nvidia.cn/)（NASDAQ: NVDA）是 AI 和加速计算领域的全球领导者。
+
+
+
+
+* [登录](/user/login?destination=node/100599138%23comment-form) 或 [注册](/user/register?destination=node/100599138%23comment-form) 后发表评论
+
+
+
+
+
+
+
+Imagination中文技术社区精彩导读
+---------------------
+
+[![]()](https://imgtec.eetrend.com/content/2025/100591121.html)
+
+* [在Imagination GPU上优化计算任务的十大技巧](https://imgtec.eetrend.com/content/2025/100595106.html)
+* [​Imagination 开源图形驱动新增Vulkan 1.2支持，并扩展多款GPU适配](https://imgtec.eetrend.com/content/2025/100595368.html)
+* [​Imagination GPU 驱动更新：新增多项 Vulkan 与 OpenCL 扩展支持](https://imgtec.eetrend.com/content/2025/100595389.html)
+
+[更多技术文章持续更新中~](https://imgtec.eetrend.com/technology)
+
+
+
+EDA星球精彩导读
+---------
+
+[![]()](http://xpeedic.eetrend.com/)
+
+* [最新盘点！本土EDA厂商有哪些？](http://xpeedic.eetrend.com/content/2021/100114206.html)
+* [光芯片电磁仿真解决方案](http://xpeedic.eetrend.com/content/2021/100063863.html)
+* [一文搞懂封装缺陷和失效的形式](http://xpeedic.eetrend.com/content/2021/100069820.html)
+* [EDA未来的的设计主流与三代仿真技术的发展](http://xpeedic.eetrend.com/content/2021/100061997.html)
+* [电子EDA技术的基础知识讲解](http://xpeedic.eetrend.com/content/2021/100061995.html)
+
+[更多EDA星球精彩资讯！](http://xpeedic.eetrend.com/)
+
+
+FPGA开发圈精彩导读
+-----------
+
+[![]()](https://fpga.eetrend.com/content/2024/100580576.html)
+
+* [实现MCU到FPGA SPI接口有一个好选项：用双缓冲器！](https://fpga.eetrend.com/content/2024/100581120.html)
+* [利用成本优化型 FPGA 和自适应 SoC 释放创新潜能](https://fpga.eetrend.com/content/2024/100581079.html)
+* [CPM5 QDMA 的 Versal Tandem PCIe启动流程介绍](https://fpga.eetrend.com/content/2024/100581056.html)
+* [Vivado Design Suite 用户指南: 设计分析与收敛技巧](https://fpga.eetrend.com/content/2024/100580863.html)
+* [劳特巴赫利用 Zynq 突破嵌入式系统设计极限](https://fpga.eetrend.com/content/2024/100580779.html)
+
+[更多FPGA开发圈社区精彩资讯！](http://xilinx.eetrend.com/)
+
+张国斌专栏
+-----
+
+[![]()](http://www.eetrend.com/interview)
+
+* [从伊朗领导人被“斩首”看AI时代数据主权的重要性](https://www.eetrend.com/content/2026/100599057.html)
+* [财报亮眼但资本不看好！英伟达一夜蒸发1.77万亿！有六大原因！](https://www.eetrend.com/content/2026/100598973.html)
+* [美国航空航天和芯片行业稀土短缺问题日益加剧](https://www.eetrend.com/content/2026/100598949.html)
+* [巨变将至？传英特尔淘汰其混合 P 核心、E 核心等芯片架构，转向“统一核心”设计！](https://www.eetrend.com/content/2026/100598888.html)
+* [Cadence发布全球首个EDA智能体ChipStack ！英伟达、高通等盛赞！](https://www.eetrend.com/content/2026/100598811.html)
+
+[阅读更多专栏文章](http://www.eetrend.com/interview)
+
+元件网精彩导读
+-------
+
+[![]()](https://component.eetrend.com/epic/2025/humanoid-robot2025.html)
+
+* [微米级革命！PPG 传感器头部新突破重塑多产业格局](https://component.eetrend.com/content/2025/100591679.html)
+* [纯干货！贴片安装避坑指南](https://component.eetrend.com/content/2025/100591648.html)
+* [小小开关，改变世界](https://component.eetrend.com/content/2025/100591266.html)
+* [运算放大器（一），电路设计图中给力的“三角形”](https://component.eetrend.com/content/2025/100589118.html)
+* [必看！工程师指南之 USB Type-C](https://component.eetrend.com/content/2025/100588275.html)
+
+精彩推荐
+----
+
+[![]()](https://www.eetrend.com/CES2026)
+
+[![]()](https://www.eetrend.com/2025nandujiang)
+
+[![]()](https://www.eetrend.com/content/sslforum2025.html)
+
+[![]()](https://www.eetrend.com/RISC-V2024)
+
+
+
+**扫码分享到微信：**
+
+使用微信扫一扫，分享本文给好友
+
+
+
+
+ 
+
+
+ --## 电子创新网图库均出自电子创新网，版权归属电子创新网，欢迎其他网站、自媒体使用，使用时请注明“图片来自电子创新网图库”，不过本图库图片仅限于网络文章使用，不得用于其他用途，否则我们保留追诉侵权的权利。 ##-- --[电子创新网合作网站](https://www.eetrend.com)--
+[电机控制系统设计](https://motor.eetrend.com) | [Imagination Technologies 中文技术社区](https://imgtec.eetrend.com) | [电子创新元件网](https://component.eetrend.com) | [FPGA 开发圈](https://fpga.eetrend.com) | [MCU 加油站](https://mcu.eetrend.com) |  [EDA 星球](https://eda.eetrend.com)
+本网站转载的所有的文章、图片、音频视频文件等资料的版权归版权所有人所有，本站采用的非本站原创文章及图片等内容无法一一联系确认版权者。如果本网所选内容的文章作者及编辑认为其作品不宜公开自由传播，或不应无偿使用，请及时通过电子邮件或电话通知我们，以迅速采取适当措施，避免给双方造成不必要的经济损失。
+[关于我们](https://www.eetrend.com/about) | [粤ICP备12070055号](httpss://beian.miit.gov.cn)
+
+
+[网站地图](https://www.eetrend.com/content/archive/sitemap-www.html)
+
+
+
+
+
+

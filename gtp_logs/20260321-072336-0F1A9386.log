@@ -1,0 +1,97 @@
+2026-03-21 07:23:36+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxTimePondering = 60.0
+maxVisits = 300
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-03-21 07:23:36+0800: GTP Engine starting...
+2026-03-21 07:23:36+0800: KataGo v1.16.4
+2026-03-21 07:23:36+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-03-21 07:23:36+0800: Using 2 CPU thread(s) for search
+2026-03-21 07:23:36+0800: nnRandSeed0 = 15824550526692945379
+2026-03-21 07:23:36+0800: After dedups: nnModelFile0 = /tmp/katago-model/model.txt.gz useFP16 auto useNHWC auto
+2026-03-21 07:23:36+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-03-21 07:23:36+0800: Eigen (CPU) backend thread 1: Model version 8
+2026-03-21 07:23:36+0800: Eigen (CPU) backend thread 1: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:23:36+0800: Eigen (CPU) backend thread 0: Model version 8
+2026-03-21 07:23:36+0800: Eigen (CPU) backend thread 0: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:23:36+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-03-21 07:23:36+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-03-21 07:23:36+0800: Loaded config /tmp/kg.cfg
+2026-03-21 07:23:36+0800: Loaded model /tmp/katago-model/model.txt.gz
+2026-03-21 07:23:36+0800: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:23:36+0800: GTP ready, beginning main protocol loop
+2026-03-21 07:23:36+0800: Controller: -e name
+2026-03-21 07:23:36+0800: ? unknown command
+2026-03-21 07:23:36+0800: Controller: boardsize 9
+2026-03-21 07:23:36+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-03-21 07:23:36+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-03-21 07:23:36+0800: Cleaned up old neural net and bot
+2026-03-21 07:23:36+0800: nnRandSeed0 = 6390706620897928454
+2026-03-21 07:23:36+0800: After dedups: nnModelFile0 = /tmp/katago-model/model.txt.gz useFP16 auto useNHWC auto
+2026-03-21 07:23:36+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-03-21 07:23:37+0800: Eigen (CPU) backend thread 0: Model version 8
+2026-03-21 07:23:37+0800: Eigen (CPU) backend thread 0: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:23:37+0800: Eigen (CPU) backend thread 1: Model version 8
+2026-03-21 07:23:37+0800: Eigen (CPU) backend thread 1: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:23:37+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-03-21 07:23:37+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-03-21 07:23:37+0800: = 
+2026-03-21 07:23:37+0800: Controller: clear_board
+2026-03-21 07:23:37+0800: = 
+2026-03-21 07:23:37+0800: Controller: genmove black
+2026-03-21 07:23:39+0800: MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . @ . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.21349
+Root visits: 301
+New playouts: 301
+NN rows: 298
+NN batches: 289
+NN avg batch size: 1.03114
+PV: E5 E3 F3 F2 F4 D7 C6 F7 G2
+Tree:
+: T -11.30c W  -9.97c S  -1.65c ( -1.1 L  -0.4) N     301  --  E5 E3 F3 F2 F4 D7 C6
+---Black(^)---
+E5  : T -10.27c W  -9.47c S  -1.64c ( -1.1 L  -0.3) LCB  -13.29c P 26.97% WF 240.9 PSV     240 N     240  --  E5 E3 F3 F2 F4 D7 C6 F7
+F5  : T -14.46c W -10.61c S  -1.30c ( -0.8 L  -0.5) LCB  -22.33c P 11.20% WF  30.3 PSV      17 N      31  --  F5 D5 E3 D3 D2 E4 F4 E2
+F6  : T -15.81c W -11.70c S  -1.79c ( -1.1 L  -0.9) LCB  -24.02c P  6.98% WF  10.7 PSV       8 N      11  --  F6 D4 F3 D7 E7
+G5  : T -12.68c W -10.36c S  -1.48c ( -1.0 L  -0.6) LCB  -35.70c P  0.60% WF   5.9 PSV       1 N       6  --  G5 D5 D7
+G6  : T -16.14c W -14.02c S  -2.12c ( -1.4 L  -0.6) LCB -366.14c P  0.32% WF   1.0 PSV       0 N       1  --  G6
+G7  : T -25.05c W -21.98c S  -3.07c ( -1.9 L  -1.1) LCB -375.05c P  0.04% WF   0.6 PSV       0 N       1  --  G7
+pss : T -121.00c W -98.52c S -22.48c (-17.0 L -12.1) LCB -471.00c P  0.03% WF   0.3 PSV       0 N       1  --  pass
+H5  : T -35.96c W -31.94c S  -4.02c ( -2.6 L  -1.5) LCB -385.96c P  0.01% WF   0.3 PSV       0 N       1  --  H5
+H6  : T -47.62c W -43.54c S  -4.09c ( -2.6 L  -1.9) LCB -397.62c P  0.01% WF   0.2 PSV       0 N       1  --  H6
+H7  : T -64.74c W -58.51c S  -6.23c ( -3.9 L  -3.5) LCB -414.74c P  0.01% WF   0.1 PSV       0 N       1  --  H7
+
+2026-03-21 07:23:39+0800: = E5
+2026-03-21 07:23:39+0800: Controller: quit
+2026-03-21 07:23:39+0800: Quit requested by controller
+2026-03-21 07:23:39+0800: = 
+2026-03-21 07:23:39+0800: GPU -1 finishing, processed 142 rows 140 batches
+2026-03-21 07:23:39+0800: GPU -1 finishing, processed 156 rows 149 batches
+2026-03-21 07:23:39+0800: All cleaned up, quitting

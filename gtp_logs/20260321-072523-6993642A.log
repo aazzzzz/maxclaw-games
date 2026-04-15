@@ -1,0 +1,608 @@
+2026-03-21 07:25:23+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxTimePondering = 60.0
+maxVisits = 300
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-03-21 07:25:23+0800: GTP Engine starting...
+2026-03-21 07:25:23+0800: KataGo v1.16.4
+2026-03-21 07:25:23+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-03-21 07:25:23+0800: Using 2 CPU thread(s) for search
+2026-03-21 07:25:23+0800: nnRandSeed0 = 2131159487249537665
+2026-03-21 07:25:23+0800: After dedups: nnModelFile0 = /tmp/katago-model/model.txt.gz useFP16 auto useNHWC auto
+2026-03-21 07:25:23+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-03-21 07:25:23+0800: Eigen (CPU) backend thread 1: Model version 8
+2026-03-21 07:25:23+0800: Eigen (CPU) backend thread 1: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:25:23+0800: Eigen (CPU) backend thread 0: Model version 8
+2026-03-21 07:25:23+0800: Eigen (CPU) backend thread 0: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:25:23+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-03-21 07:25:23+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-03-21 07:25:23+0800: Loaded config /tmp/kg.cfg
+2026-03-21 07:25:23+0800: Loaded model /tmp/katago-model/model.txt.gz
+2026-03-21 07:25:23+0800: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:25:23+0800: GTP ready, beginning main protocol loop
+2026-03-21 07:25:23+0800: Controller: name
+2026-03-21 07:25:23+0800: = KataGo
+2026-03-21 07:29:09+0800: Controller: boardsize 9
+2026-03-21 07:29:09+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-03-21 07:29:09+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-03-21 07:29:09+0800: Cleaned up old neural net and bot
+2026-03-21 07:29:09+0800: nnRandSeed0 = 15536035122583768875
+2026-03-21 07:29:09+0800: After dedups: nnModelFile0 = /tmp/katago-model/model.txt.gz useFP16 auto useNHWC auto
+2026-03-21 07:29:09+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-03-21 07:29:09+0800: Eigen (CPU) backend thread 0: Model version 8
+2026-03-21 07:29:09+0800: Eigen (CPU) backend thread 0: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:29:09+0800: Eigen (CPU) backend thread 1: Model version 8
+2026-03-21 07:29:09+0800: Eigen (CPU) backend thread 1: Model name: b6c96-s175395328-d26788732
+2026-03-21 07:29:09+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-03-21 07:29:09+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-03-21 07:29:09+0800: = 
+2026-03-21 07:29:09+0800: Controller: clear_board
+2026-03-21 07:29:09+0800: = 
+2026-03-21 07:29:09+0800: Controller: komi 6.5
+2026-03-21 07:29:09+0800: = 
+2026-03-21 07:29:09+0800: Controller: showboard
+2026-03-21 07:29:09+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 07:31:14+0800: Controller: boardsize 9
+2026-03-21 07:31:14+0800: = 
+2026-03-21 07:31:14+0800: Controller: clear_board
+2026-03-21 07:31:14+0800: = 
+2026-03-21 07:31:14+0800: Controller: komi 6.5
+2026-03-21 07:31:14+0800: = 
+2026-03-21 07:31:14+0800: Controller: showboard
+2026-03-21 07:31:14+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 07:51:40+0800: Controller: boardsize 9
+2026-03-21 07:51:40+0800: = 
+2026-03-21 07:51:40+0800: Controller: clear_board
+2026-03-21 07:51:40+0800: = 
+2026-03-21 07:51:40+0800: Controller: komi 6.5
+2026-03-21 07:51:40+0800: = 
+2026-03-21 07:51:40+0800: Controller: showboard
+2026-03-21 07:51:40+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:22:49+0800: Controller: boardsize 9
+2026-03-21 10:22:50+0800: = 
+2026-03-21 10:22:50+0800: Controller: clear_board
+2026-03-21 10:22:50+0800: = 
+2026-03-21 10:22:50+0800: Controller: komi 6.5
+2026-03-21 10:22:50+0800: = 
+2026-03-21 10:22:50+0800: Controller: showboard
+2026-03-21 10:22:50+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:17+0800: Controller: boardsize 9
+2026-03-21 10:23:17+0800: = 
+2026-03-21 10:23:17+0800: Controller: clear_board
+2026-03-21 10:23:17+0800: = 
+2026-03-21 10:23:17+0800: Controller: komi 6.5
+2026-03-21 10:23:17+0800: = 
+2026-03-21 10:23:17+0800: Controller: showboard
+2026-03-21 10:23:17+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:20+0800: Controller: play black G7
+2026-03-21 10:23:20+0800: = 
+2026-03-21 10:23:20+0800: Controller: showboard
+2026-03-21 10:23:20+0800: = MoveNum: 1 HASH: 6178DE46324FCE21AA7322E147D6D099
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:21+0800: Controller: genmove white
+2026-03-21 10:23:23+0800: MoveNum: 1 HASH: 6178DE46324FCE21AA7322E147D6D099
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . @ . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 2.02094
+Root visits: 301
+New playouts: 301
+NN rows: 301
+NN batches: 295
+NN avg batch size: 1.02034
+PV: F6 G6 F4 C4 C6 E6 E5 D6
+Tree:
+: T  17.03c W  15.13c S   0.49c ( +1.2 L  +1.2) N     301  --  F6 G6 F4 C4 C6 E6 E5
+---White(^)---
+F6  : T  19.19c W  16.52c S   0.72c ( +1.4 L  +1.4) LCB   15.03c P  6.10% WF 243.5 PSV     240 N     240  --  F6 G6 F4 C4 C6 E6 E5 D6
+D4  : T   8.14c W   9.73c S  -0.56c ( +0.5 L  +0.6) LCB    1.87c P 61.17% WF  48.8 PSV      49 N      52  --  D4 F4 D7 D3 C3 E3 C4 E7
+D5  : T   6.97c W   6.94c S  -0.81c ( +0.4 L  +0.5) LCB  -11.61c P  8.22% WF   6.7 PSV       6 N       7  --  D5 F4 D3 D7
+D6  : T  -4.02c W  -1.86c S  -2.16c ( -0.6 L  -0.5) LCB -354.02c P  2.91% WF   0.9 PSV       1 N       1  --  D6
+
+2026-03-21 10:23:23+0800: = F6
+2026-03-21 10:23:23+0800: Controller: showboard
+2026-03-21 10:23:23+0800: = MoveNum: 2 HASH: BE9D2B09BFE4C01555EEA049E615D5CD
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . O2. . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:39+0800: Controller: play black G3
+2026-03-21 10:23:39+0800: = 
+2026-03-21 10:23:39+0800: Controller: showboard
+2026-03-21 10:23:39+0800: = MoveNum: 3 HASH: 5BDDC32B30EFF012C7D48084C1D62F9C
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . O2. . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . X3. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:39+0800: Controller: genmove white
+2026-03-21 10:23:41+0800: MoveNum: 3 HASH: 5BDDC32B30EFF012C7D48084C1D62F9C
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . O2. . .
+ 5 . . . . . . . . .
+ 4 . . . . . @ . . .
+ 3 . . . . . . X3. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 2.01353
+Root visits: 301
+New playouts: 301
+NN rows: 290
+NN batches: 287
+NN avg batch size: 1.01045
+PV: F4 H5 C5 D7 F3 D5
+Tree:
+: T  30.29c W  29.74c S   1.08c ( +2.1 L  +2.4) N     301  --  F4 H5 C5 D7 F3 D5
+---White(^)---
+F4  : T  33.49c W  32.72c S   1.35c ( +2.3 L  +2.6) LCB   26.39c P 31.09% WF 216.8 PSV     213 N     213  --  F4 H5 C5 D7 F3 D5
+F7  : T  19.78c W  21.46c S   0.17c ( +1.5 L  +1.6) LCB    2.79c P 23.70% WF  23.4 PSV      18 N      25  --  F7 D4 C6 C5 D6 G6
+G6  : T  26.63c W  24.46c S   0.97c ( +2.1 L  +2.2) LCB   11.39c P 10.76% WF  36.9 PSV      15 N      38  --  G6 D6 F7 D4 E3 E4 F3 F4
+D4  : T  22.17c W  24.27c S  -0.05c ( +1.4 L  +2.1) LCB    5.62c P  7.98% WF   9.6 PSV       7 N      10  --  D4 G6 F4 G4 F7 B5
+C6  : T  15.97c W  18.83c S  -0.42c ( +1.2 L  +1.5) LCB  -34.67c P  3.66% WF   3.8 PSV       2 N       4  --  C6 F7 E6
+D6  : T  14.94c W  17.90c S  -0.89c ( +0.9 L  +1.2) LCB  -59.85c P  4.79% WF   2.8 PSV       2 N       3  --  D6 G6 F4
+E3  : T   6.73c W   7.68c S  -0.95c ( +0.7 L  +0.9) LCB -343.27c P  3.53% WF   0.9 PSV       1 N       1  --  E3
+D5  : T   5.72c W   7.38c S  -1.66c ( +0.3 L  +1.1) LCB -344.28c P  3.24% WF   0.9 PSV       1 N       1  --  D5
+E4  : T   9.99c W  10.74c S  -0.75c ( +0.9 L  +1.3) LCB -340.01c P  2.28% WF   0.9 PSV       1 N       1  --  E4
+D3  : T  15.08c W  14.93c S   0.14c ( +1.5 L  +1.8) LCB -334.92c P  2.27% WF   1.0 PSV       1 N       1  --  D3
+
+2026-03-21 10:23:41+0800: = F4
+2026-03-21 10:23:41+0800: Controller: showboard
+2026-03-21 10:23:41+0800: = MoveNum: 4 HASH: 8307D8A054F6D3674A68057C819C5C01
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X . .
+ 6 . . . . . O1. . .
+ 5 . . . . . . . . .
+ 4 . . . . . O3. . .
+ 3 . . . . . . X2. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:45+0800: Controller: play black C3
+2026-03-21 10:23:45+0800: = 
+2026-03-21 10:23:45+0800: Controller: showboard
+2026-03-21 10:23:45+0800: = MoveNum: 5 HASH: 55090FD1CD75C0AD981DDCAE96220B01
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X . .
+ 6 . . . . . O . . .
+ 5 . . . . . . . . .
+ 4 . . . . . O2. . .
+ 3 . . X3. . . X1. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:45+0800: Controller: genmove white
+2026-03-21 10:23:47+0800: MoveNum: 5 HASH: 55090FD1CD75C0AD981DDCAE96220B01
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X . .
+ 6 . . . . . O . . .
+ 5 . . @ . . . . . .
+ 4 . . . . . O2. . .
+ 3 . . X3. . . X1. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 2.06703
+Root visits: 301
+New playouts: 301
+NN rows: 292
+NN batches: 288
+NN avg batch size: 1.01389
+PV: C5 F7 F3 H5 C4 G2 D7 D2
+Tree:
+: T  42.92c W  43.12c S   0.52c ( +3.4 L  +3.7) N     301  --  C5 F7 F3 H5 C4 G2 D7
+---White(^)---
+C5  : T  45.55c W  45.76c S   0.73c ( +3.5 L  +3.8) LCB   38.57c P 14.19% WF 196.2 PSV     193 N     193  --  C5 F7 F3 H5 C4 G2 D7 D2
+F7  : T  43.77c W  43.06c S   0.26c ( +3.2 L  +3.6) LCB   31.81c P 30.17% WF  54.1 PSV      55 N      55  --  F7 C6 D4 C4 G4 F3 D3 D2
+F3  : T  30.84c W  32.62c S   0.06c ( +3.1 L  +3.1) LCB   12.94c P 33.16% WF  33.0 PSV      25 N      36  --  F3 D6 F7 H5 G4 H4 H3 G8
+C6  : T  37.87c W  35.13c S  -0.55c ( +2.7 L  +3.0) LCB   11.08c P  8.10% WF   5.9 PSV       6 N       6  --  C6 F3 F7 G6 G4
+D4  : T  31.97c W  33.69c S   0.50c ( +3.4 L  +3.4) LCB   10.10c P  5.44% WF   6.7 PSV       4 N       7  --  D4 C4 C6 F7 D3
+D7  : T  19.17c W  20.45c S  -1.28c ( +2.2 L  +2.6) LCB -330.83c P  2.37% WF   0.9 PSV       1 N       1  --  D7
+G4  : T  21.13c W  22.04c S  -0.91c ( +2.4 L  +2.9) LCB -328.87c P  2.24% WF   0.9 PSV       1 N       1  --  G4
+G6  : T  15.90c W  17.74c S  -1.83c ( +1.7 L  +2.7) LCB -334.10c P  1.35% WF   0.9 PSV       0 N       1  --  G6
+
+2026-03-21 10:23:47+0800: = C5
+2026-03-21 10:23:47+0800: Controller: showboard
+2026-03-21 10:23:47+0800: = MoveNum: 6 HASH: 4CF93B4D71CC0FF3E2B1DA4543B413CF
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X . .
+ 6 . . . . . O . . .
+ 5 . . O3. . . . . .
+ 4 . . . . . O1. . .
+ 3 . . X2. . . X . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:52+0800: Controller: play black F7
+2026-03-21 10:23:52+0800: = 
+2026-03-21 10:23:52+0800: Controller: showboard
+2026-03-21 10:23:52+0800: = MoveNum: 7 HASH: 4D3024866D2FCE23CBD248BC09647DB3
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . X3X . .
+ 6 . . . . . O . . .
+ 5 . . O2. . . . . .
+ 4 . . . . . O . . .
+ 3 . . X1. . . X . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:23:52+0800: Controller: genmove white
+2026-03-21 10:23:54+0800: MoveNum: 7 HASH: 4D3024866D2FCE23CBD248BC09647DB3
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . X3X . .
+ 6 . . . . . O . . .
+ 5 . . O2. . . . . .
+ 4 . . . . . O . . .
+ 3 . . X1. . @ X . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 1.66228
+Root visits: 301
+New playouts: 218
+NN rows: 215
+NN batches: 208
+NN avg batch size: 1.03365
+PV: F3 H5 D6 B4 D2 B5 B6 C2 G4 H4 H3 C7 C6 D7
+Tree:
+: T  46.41c W  45.58c S   2.12c ( +3.9 L  +4.2) N     301  --  F3 H5 D6 B4 D2 B5 B6
+---White(^)---
+F3  : T  47.52c W  46.54c S   2.24c ( +3.9 L  +4.3) LCB   41.68c P 62.75% WF 288.0 PSV     287 N     287  --  F3 H5 D6 B4 D2 B5 B6 C2
+E2  : T  29.89c W  32.12c S   0.70c ( +3.0 L  +2.7) LCB  -27.46c P  8.43% WF   4.7 PSV       5 N       5  --  E2 D4 D5
+D7  : T   0.50c W   8.34c S  -3.02c ( +0.5 L  +0.7) LCB  -49.63c P 18.97% WF   3.3 PSV       4 N       4  --  D7 F3 G4
+E3  : T  23.54c W  23.55c S  -0.00c ( +2.5 L  +3.2) LCB -326.46c P  3.01% WF   0.9 PSV       1 N       1  --  E3
+E6  : T  12.89c W  14.80c S  -1.91c ( +1.2 L  +1.5) LCB -337.11c P  2.50% WF   0.9 PSV       0 N       1  --  E6
+D3  : T  16.43c W  17.90c S  -1.46c ( +1.5 L  +2.1) LCB -333.57c P  1.76% WF   0.9 PSV       0 N       1  --  D3
+E7  : T  19.59c W  20.08c S  -0.49c ( +2.1 L  +2.2) LCB -330.41c P  1.30% WF   0.9 PSV       0 N       1  --  E7
+
+2026-03-21 10:23:54+0800: = F3
+2026-03-21 10:23:54+0800: Controller: showboard
+2026-03-21 10:23:54+0800: = MoveNum: 8 HASH: 23FBCCC9D574701E57E5804CF574A716
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . X2X . .
+ 6 . . . . . O . . .
+ 5 . . O1. . . . . .
+ 4 . . . . . O . . .
+ 3 . . X . . O3X . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:27:35+0800: Controller: boardsize 9
+2026-03-21 10:27:35+0800: = 
+2026-03-21 10:27:35+0800: Controller: clear_board
+2026-03-21 10:27:35+0800: = 
+2026-03-21 10:27:35+0800: Controller: komi 6.5
+2026-03-21 10:27:35+0800: = 
+2026-03-21 10:27:35+0800: Controller: showboard
+2026-03-21 10:27:35+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:27:37+0800: Controller: play black G7
+2026-03-21 10:27:37+0800: = 
+2026-03-21 10:27:37+0800: Controller: showboard
+2026-03-21 10:27:37+0800: = MoveNum: 1 HASH: 6178DE46324FCE21AA7322E147D6D099
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:27:37+0800: Controller: genmove white
+2026-03-21 10:27:37+0800: MoveNum: 1 HASH: 6178DE46324FCE21AA7322E147D6D099
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . @ . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 0.285129
+Root visits: 301
+New playouts: 301
+NN rows: 29
+NN batches: 29
+NN avg batch size: 1
+PV: F6 G6 F4 C4 C6 E6 E5 D6 D5
+Tree:
+: T  17.79c W  15.47c S   0.49c ( +1.2 L  +1.2) N     301  --  F6 G6 F4 C4 C6 E6 E5
+---White(^)---
+F6  : T  19.88c W  16.93c S   0.77c ( +1.4 L  +1.4) LCB   15.51c P  6.10% WF 231.8 PSV     247 N     229  --  F6 G6 F4 C4 C6 E6 E5 D6
+D4  : T  11.35c W  11.11c S  -0.50c ( +0.6 L  +0.6) LCB    4.69c P 61.17% WF  60.1 PSV      63 N      63  --  D4 F4 D7 D3 C3 E3 C2 D6
+D5  : T   6.97c W   6.94c S  -0.81c ( +0.4 L  +0.5) LCB  -11.61c P  8.22% WF   6.7 PSV       5 N       7  --  D5 F4 D3 D7
+D6  : T  -4.02c W  -1.86c S  -2.16c ( -0.6 L  -0.5) LCB -354.02c P  2.91% WF   0.9 PSV       1 N       1  --  D6
+
+2026-03-21 10:27:37+0800: = F6
+2026-03-21 10:27:37+0800: Controller: showboard
+2026-03-21 10:27:37+0800: = MoveNum: 2 HASH: BE9D2B09BFE4C01555EEA049E615D5CD
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . X1. .
+ 6 . . . . . O2. . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:38:28+0800: Controller: boardsize 9
+2026-03-21 10:38:28+0800: = 
+2026-03-21 10:38:28+0800: Controller: clear_board
+2026-03-21 10:38:28+0800: = 
+2026-03-21 10:38:28+0800: Controller: komi 6.5
+2026-03-21 10:38:28+0800: = 
+2026-03-21 10:38:28+0800: Controller: showboard
+2026-03-21 10:38:28+0800: = MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:38:32+0800: Controller: play black D7
+2026-03-21 10:38:32+0800: = 
+2026-03-21 10:38:32+0800: Controller: showboard
+2026-03-21 10:38:32+0800: = MoveNum: 1 HASH: D211C9F56E747ECD729223A3D190A647
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . X1. . . . .
+ 6 . . . . . . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2026-03-21 10:38:32+0800: Controller: genmove white
+2026-03-21 10:38:34+0800: MoveNum: 1 HASH: D211C9F56E747ECD729223A3D190A647
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . X1. . . . .
+ 6 . . . . @ . . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi6.5
+Time taken: 2.0231
+Root visits: 301
+New playouts: 301
+NN rows: 298
+NN batches: 290
+NN avg batch size: 1.02759
+PV: E6 D6 E5 E7 D5 G6 G5 H5 F6 G7 F7
+Tree:
+: T   1.79c W   2.02c S  -0.09c ( -0.1 L  +0.1) N     301  --  E6 D6 E5 E7 D5 G6 G5
+---White(^)---
+E6  : T   4.71c W   4.68c S   0.17c ( +0.1 L  +0.3) LCB   -1.26c P  3.97% WF 211.6 PSV     208 N     208  --  E6 D6 E5 E7 D5 G6 G5 H5
+F4  : T  -5.42c W  -3.67c S  -0.49c ( -0.3 L  -0.3) LCB  -13.05c P 38.25% WF  32.4 PSV      34 N      34  --  F4 D4 F7 F3 G3 E3 G4 F8
+E4  : T  -1.35c W  -1.96c S  -0.51c ( -0.4 L  -0.2) LCB  -14.26c P 14.58% WF  29.3 PSV      24 N      30  --  E4 G6 G5 F5
+D6  : T  -5.97c W  -5.76c S  -0.73c ( -0.5 L  -0.4) LCB  -27.64c P 13.47% WF  12.5 PSV      13 N      13  --  D6 E6 E5 F5 F4
+F5  : T -11.80c W  -9.94c S  -1.43c ( -1.0 L  -0.8) LCB  -29.07c P 11.86% WF   6.6 PSV       7 N       7  --  F5 D4 F7 F3
+D5  : T  -8.21c W  -4.23c S  -1.25c ( -0.9 L  -0.4) LCB  -82.89c P  2.80% WF   2.9 PSV       2 N       3  --  D5 F6 F4
+D4  : T -13.76c W -10.41c S  -1.90c ( -1.3 L  -1.4) LCB -162.80c P  5.16% WF   1.9 PSV       2 N       2  --  D4 F4
+E5  : T -10.80c W  -8.52c S  -2.28c ( -1.6 L  -0.9) LCB -360.80c P  1.58% WF   1.0 PSV       1 N       1  --  E5
+E3  : T -14.82c W -12.77c S  -2.05c ( -1.3 L  -0.9) LCB -364.82c P  1.56% WF   1.0 PSV       0 N       1  --  E3
+F3  : T -16.65c W -14.64c S  -2.00c ( -1.3 L  -1.0) LCB -366.65c P  1.27% WF   0.9 PSV       0 N       1  --  F3
+
+2026-03-21 10:38:34+0800: = E6
+2026-03-21 10:38:34+0800: Controller: showboard
+2026-03-21 10:38:34+0800: = MoveNum: 2 HASH: 67507FE644DC98ACFA1A5FB6E9BF3B26
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . X1. . . . .
+ 6 . . . . O2. . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":6.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0

@@ -1,0 +1,2261 @@
+# Source URL: https://github.com/official-pikafish/Pikafish/releases
+# Content Length: 30555 characters
+# Extracted at: 2026-03-31 01:52:02
+#============================================================
+
+
+
+
+
+
+
+
+
+
+
+Releases · official-pikafish/Pikafish · GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+[Skip to content](#start-of-content)
+
+
+
+
+
+Navigation Menu
+---------------
+
+Toggle navigation
+
+ 
+
+
+
+
+
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fofficial-pikafish%2FPikafish%2Freleases)
+ 
+
+
+Appearance settings
+
+
+
+
+
+
+
+
+* Platform
+  + AI CODE CREATION
+    - [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+    - [GitHub SparkBuild and deploy intelligent apps](https://github.com/features/spark)
+    - [GitHub ModelsManage and compare prompts](https://github.com/features/models)
+    - [MCP RegistryNewIntegrate external tools](https://github.com/mcp)
+  + DEVELOPER WORKFLOWS
+    - [ActionsAutomate any workflow](https://github.com/features/actions)
+    - [CodespacesInstant dev environments](https://github.com/features/codespaces)
+    - [IssuesPlan and track work](https://github.com/features/issues)
+    - [Code ReviewManage code changes](https://github.com/features/code-review)
+  + APPLICATION SECURITY
+    - [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+    - [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+    - [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+  + EXPLORE
+    - [Why GitHub](https://github.com/why-github)
+    - [Documentation](https://docs.github.com)
+    - [Blog](https://github.blog)
+    - [Changelog](https://github.blog/changelog)
+    - [Marketplace](https://github.com/marketplace)[View all features](https://github.com/features)
+* Solutions
+  + BY COMPANY SIZE
+    - [Enterprises](https://github.com/enterprise)
+    - [Small and medium teams](https://github.com/team)
+    - [Startups](https://github.com/enterprise/startups)
+    - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+  + BY USE CASE
+    - [App Modernization](https://github.com/solutions/use-case/app-modernization)
+    - [DevSecOps](https://github.com/solutions/use-case/devsecops)
+    - [DevOps](https://github.com/solutions/use-case/devops)
+    - [CI/CD](https://github.com/solutions/use-case/ci-cd)
+    - [View all use cases](https://github.com/solutions/use-case)
+  + BY INDUSTRY
+    - [Healthcare](https://github.com/solutions/industry/healthcare)
+    - [Financial services](https://github.com/solutions/industry/financial-services)
+    - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+    - [Government](https://github.com/solutions/industry/government)
+    - [View all industries](https://github.com/solutions/industry)[View all solutions](https://github.com/solutions)
+* Resources
+  + EXPLORE BY TOPIC
+    - [AI](https://github.com/resources/articles?topic=ai)
+    - [Software Development](https://github.com/resources/articles?topic=software-development)
+    - [DevOps](https://github.com/resources/articles?topic=devops)
+    - [Security](https://github.com/resources/articles?topic=security)
+    - [View all topics](https://github.com/resources/articles)
+  + EXPLORE BY TYPE
+    - [Customer stories](https://github.com/customer-stories)
+    - [Events & webinars](https://github.com/resources/events)
+    - [Ebooks & reports](https://github.com/resources/whitepapers)
+    - [Business insights](https://github.com/solutions/executive-insights)
+    - [GitHub Skills](https://skills.github.com)
+  + SUPPORT & SERVICES
+    - [Documentation](https://docs.github.com)
+    - [Customer support](https://support.github.com)
+    - [Community forum](https://github.com/orgs/community/discussions)
+    - [Trust center](https://github.com/trust-center)
+    - [Partners](https://github.com/partners)[View all resources](https://github.com/resources)
+* Open Source
+  + COMMUNITY
+    - [GitHub SponsorsFund open source developers](https://github.com/sponsors)
+  + PROGRAMS
+    - [Security Lab](https://securitylab.github.com)
+    - [Maintainer Community](https://maintainers.github.com)
+    - [Accelerator](https://github.com/accelerator)
+    - [GitHub Stars](https://stars.github.com)
+    - [Archive Program](https://archiveprogram.github.com)
+  + REPOSITORIES
+    - [Topics](https://github.com/topics)
+    - [Trending](https://github.com/trending)
+    - [Collections](https://github.com/collections)
+* Enterprise
+  + ENTERPRISE SOLUTIONS
+    - [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+  + AVAILABLE ADD-ONS
+    - [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+    - [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+    - [Premium SupportEnterprise-grade 24/7 support](https://github.com/premium-support)
+* [Pricing](https://github.com/pricing)
+
+
+
+Search or jump to...
+
+
+
+
+Search code, repositories, users, issues, pull requests...
+==========================================================
+
+ 
+Search
+
+
+
+
+Clear
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax) 
+
+
+
+
+
+
+
+Provide feedback
+================
+
+
+
+
+
+ 
+
+We read every piece of feedback, and take your input very seriously.
+
+
+
+Include my email address so I can be contacted
+
+
+  Cancel
+
+ Submit feedback
+
+
+
+Saved searches
+==============
+
+Use saved searches to filter your results more quickly
+------------------------------------------------------
+
+
+
+
+
+ 
+
+Name
+
+
+
+
+Query
+
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
+
+ 
+
+
+
+
+  Cancel
+
+ Create saved search
+
+
+
+
+
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fofficial-pikafish%2FPikafish%2Freleases)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Freleases%2Findex&source=header-repo&source_repo=official-pikafish%2FPikafish)
+ 
+
+
+Appearance settings
+
+
+
+
+
+Resetting focus
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+ 
+
+
+Dismiss alert
+
+
+
+{{ message }}
+
+
+
+
+
+[official-pikafish](/official-pikafish) 
+/
+**[Pikafish](/official-pikafish/Pikafish)**
+Public
+
+
+* [Notifications](/login?return_to=%2Fofficial-pikafish%2FPikafish) You must be signed in to change notification settings
+* [Fork
+  294](/login?return_to=%2Fofficial-pikafish%2FPikafish)
+* [Star
+   1.7k](/login?return_to=%2Fofficial-pikafish%2FPikafish)
+
+
+
+* [Code](/official-pikafish/Pikafish)
+* [Issues
+  1](/official-pikafish/Pikafish/issues)
+* [Pull requests
+  2](/official-pikafish/Pikafish/pulls)
+* [Discussions](/official-pikafish/Pikafish/discussions)
+* [Actions](/official-pikafish/Pikafish/actions)
+* [Wiki](/official-pikafish/Pikafish/wiki)
+* [Security
+  0](/official-pikafish/Pikafish/security)
+* [Insights](/official-pikafish/Pikafish/pulse)
+
+ 
+ 
+
+
+Additional navigation options
+ 
+
+* [Code](/official-pikafish/Pikafish)
+* [Issues](/official-pikafish/Pikafish/issues)
+* [Pull requests](/official-pikafish/Pikafish/pulls)
+* [Discussions](/official-pikafish/Pikafish/discussions)
+* [Actions](/official-pikafish/Pikafish/actions)
+* [Wiki](/official-pikafish/Pikafish/wiki)
+* [Security](/official-pikafish/Pikafish/security)
+* [Insights](/official-pikafish/Pikafish/pulse)
+
+
+ 
+
+
+
+Releases: official-pikafish/Pikafish
+====================================
+
+[Releases](/official-pikafish/Pikafish/releases)
+[Tags](/official-pikafish/Pikafish/tags)
+
+
+
+ 
+
+
+
+Releases · official-pikafish/Pikafish
+
+Pikafish 2026-01-02
+-------------------
+
+02 Jan 13:04
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2026-01-02](/official-pikafish/Pikafish/tree/Pikafish-2026-01-02)
+
+[`ce0679e`](/official-pikafish/Pikafish/commit/ce0679e00ee196f7ba17f6ec18941b9a5036f8cf)
+
+
+
+This commit was signed with the committer’s **verified signature**.
+
+
+[![]()](/PikaCat-OuO)
+[PikaCat-OuO](/PikaCat-OuO)
+PikaCat
+
+
+SSH Key Fingerprint: ZgflBv1812QeqHZah+p2cVShpocaMZ1NTADNq6RIZL0
+Verified
+
+
+[Learn about vigilant mode](https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits).
+
+
+
+
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2026-01-02](/official-pikafish/Pikafish/releases/tag/Pikafish-2026-01-02)
+[Latest](/official-pikafish/Pikafish/releases/latest)
+
+
+
+[Latest](/official-pikafish/Pikafish/releases/latest)
+
+
+
+
+
+What's new:
+===========
+
+1. Introduce the first and strongest open source implementation of threat input features for xiangqi. Big thanks and salute to the Stockfish developers for their hard work!
+2. Greatly improved performance for vnni and avx512 instructions. Builds like avxvnni, avx512, vnni512, avx512icl are now significantly faster than bmi2.
+3. Improved performance for NEON instructions on MacOS and Android builds, thanks to full i8 weights.
+
+Performance comparison with Pikafish 2025-06-23:
+================================================
+
+Book: winrate 65\_85
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 3426 / 1004 / 1692 / 730  
+
+PTNML: 30 / 271 / 843 / 533 / 36  
+
+WinRate: 54.00%  
+
+ELO: 27.59[20.38, 34.98]  
+
+LOS: 100.00  
+
+LLR: 3.50[-2.94, 2.94]
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 2956 / 753 / 1641 / 562  
+
+PTNML: 7 / 222 / 824 / 423 / 2  
+
+WinRate: 53.23%  
+
+ELO: 22.25[16.06, 28.56]  
+
+LOS: 100.00  
+
+LLR: 3.04[-2.94, 2.94]
+
+TC: 180+1.8  
+
+Total/Win/Draw/Lose: 2204 / 573 / 1214 / 417  
+
+PTNML: 2 / 131 / 679 / 289 / 1  
+
+WinRate: 53.54%  
+
+ELO: 24.40[17.91, 31.07]  
+
+LOS: 100.00  
+
+LLR: 2.97[-2.94, 2.94]
+
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+5
+ xchacuasc, liumingjing0221, gbtami, Willie169, and wubin0532 reacted with thumbs up emoji
+ 😄
+3
+ Liberations, Velithia, and xchacuasc reacted with laugh emoji
+ 🎉
+2
+ xchacuasc and gbtami reacted with hooray emoji
+ ❤️
+9
+ 1526133520, xland, Liberations, Velithia, vothanhkien1993-svg, xchacuasc, gbtami, leonwerth2703, and benckx reacted with heart emoji
+ 🚀
+1
+ xchacuasc reacted with rocket emoji
+ 👀
+1
+ xchacuasc reacted with eyes emoji
+ 
+All reactions
+
+* 👍
+  5 reactions
+* 😄
+  3 reactions
+* 🎉
+  2 reactions
+* ❤️
+  9 reactions
+* 🚀
+  1 reaction
+* 👀
+  1 reaction
+
+
+
+ 12 people reacted
+
+
+
+
+
+
+Pikafish 2025-06-23
+-------------------
+
+23 Jun 03:18
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2025-06-23](/official-pikafish/Pikafish/tree/Pikafish-2025-06-23)
+
+[`2b6cf79`](/official-pikafish/Pikafish/commit/2b6cf79d55d9d168604cf42ce61b517653d6f2fc)
+
+
+
+This commit was signed with the committer’s **verified signature**.
+
+
+[![]()](/PikaCat-OuO)
+[PikaCat-OuO](/PikaCat-OuO)
+PikaCat
+
+
+SSH Key Fingerprint: ZgflBv1812QeqHZah+p2cVShpocaMZ1NTADNq6RIZL0
+Verified
+
+
+[Learn about vigilant mode](https://docs.github.com/github/authenticating-to-github/displaying-verification-statuses-for-all-of-your-commits).
+
+
+
+
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2025-06-23](/official-pikafish/Pikafish/releases/tag/Pikafish-2025-06-23)
+
+
+
+
+
+
+
+
+1. Larger L1 size, better performance in long time control games.
+2. Introduce mid-mirror input feature encoding for better mirroring effects.
+3. Improve stalemate detection in qsearch.
+4. Improve performance with avx512 instructions.
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+12
+ dbbn664, csh18, ieloug, giangapo, funnytea2025, xchacuasc, Augus1217, thu-bear, niejl, TBLJ, and 2 more reacted with thumbs up emoji
+ 😄
+1
+ funnytea2025 reacted with laugh emoji
+ 🎉
+3
+ dbbn664, giangapo, and midstreeeam reacted with hooray emoji
+ ❤️
+4
+ dbbn664, giangapo, liumingjing0221, and leonwerth2703 reacted with heart emoji
+ 🚀
+3
+ dbbn664, giangapo, and wanyuanya reacted with rocket emoji
+ 👀
+1
+ wanyuanya reacted with eyes emoji
+ 
+All reactions
+
+* 👍
+  12 reactions
+* 😄
+  1 reaction
+* 🎉
+  3 reactions
+* ❤️
+  4 reactions
+* 🚀
+  3 reactions
+* 👀
+  1 reaction
+
+
+
+ 16 people reacted
+
+
+
+
+
+
+Pikafish 2024-08-31
+-------------------
+
+31 Aug 11:19
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2024-08-31](/official-pikafish/Pikafish/tree/Pikafish-2024-08-31)
+
+[`e0c6f06`](/official-pikafish/Pikafish/commit/e0c6f068dfef32c64add074eec604eab65613198)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2024-08-31](/official-pikafish/Pikafish/releases/tag/Pikafish-2024-08-31)
+
+
+
+
+
+
+
+
+What's New:
+
+1. Updated `Computer Rule`. If any checking moves appear in the repetition move sequence, it will no longer be considered a chasing sequence. For the updated rule, visit <https://pikafish.org/rule.html>.
+2. Introduced a new NNUE architecture ATT++. This architecture facilitates better playing strength and smaller file size.
+3. Added a new UCI option `NumaPolicy` for CPU affinity selection alongside an improved performance on NUMA systems. For detailed usage of this option, see <https://github.com/official-pikafish/Pikafish/wiki/UCI-&-Commands#setoption>.
+4. Some bug fixes and speed-ups.
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+4
+ eleven-dimension, imgen, miqiemi, and xchacuasc reacted with thumbs up emoji
+ 🎉
+5
+ Mikachu2333, Pikafollower, skystarspython, pujfei, and miqiemi reacted with hooray emoji
+ ❤️
+14
+ leonwerth2703, doanthaiphong, skystarspython, Leelagozero, YaoYYw, erbiaoger, Quocvuong82, CoderYiXin, quang1712, luych, and 4 more reacted with heart emoji
+ 👀
+2
+ vocanet and skystarspython reacted with eyes emoji
+ 
+All reactions
+
+* 👍
+  4 reactions
+* 🎉
+  5 reactions
+* ❤️
+  14 reactions
+* 👀
+  2 reactions
+
+
+
+ 20 people reacted
+
+
+
+
+
+
+Pikafish 2024-03-10
+-------------------
+
+10 Mar 13:47
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2024-03-10](/official-pikafish/Pikafish/tree/Pikafish-2024-03-10)
+
+[`0e82f81`](/official-pikafish/Pikafish/commit/0e82f8177fa13a2461e2a83e3d810b8139ec3587)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2024-03-10](/official-pikafish/Pikafish/releases/tag/Pikafish-2024-03-10)
+
+
+
+
+
+
+
+
+Comparing with Pikafish 2023-12-03:
+
+Book: 3mvs 151-350\_1097123
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 4036 / 1165 / 1979 / 892  
+
+PTNML: 33 / 382 / 942 / 601 / 60  
+
+WinRate: 53.38%  
+
+ELO: 23.28[16.64, 30.04]  
+
+LOS: 100.00  
+
+LLR: 3.35[-2.94, 2.94]
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 2124 / 597 / 1133 / 394  
+
+PTNML: 2 / 162 / 544 / 339 / 15  
+
+WinRate: 54.78%  
+
+ELO: 33.06[25.41, 41.01]  
+
+LOS: 100.00  
+
+LLR: 3.02[-2.94, 2.94]
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 180+1.8  
+
+Total/Win/Draw/Lose: 1414 / 432 / 706 / 276  
+
+PTNML: 0 / 76 / 402 / 226 / 3  
+
+WinRate: 55.52%  
+
+ELO: 38.23[29.85, 47.12]  
+
+LOS: 100.00  
+
+LLR: 2.97[-2.94, 2.94]
+
+Shows very good scaling.
+
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+14
+ xiangqishare, cccttt12345, auntyellow, hoangson77ly, ieloug, zeitgeist314, LFL20171121, pujfei, AsadHassanFarooqi, fangtiancheng, and 4 more reacted with thumbs up emoji
+ 😄
+1
+ skystarspython reacted with laugh emoji
+ 🎉
+2
+ Mikachu2333 and skystarspython reacted with hooray emoji
+ ❤️
+6
+ cccttt12345, hoangson77ly, DrCapaldi007, AsadHassanFarooqi, skystarspython, and leonwerth2703 reacted with heart emoji
+ 🚀
+1
+ skystarspython reacted with rocket emoji
+ 👀
+1
+ skystarspython reacted with eyes emoji
+ 
+All reactions
+
+* 👍
+  14 reactions
+* 😄
+  1 reaction
+* 🎉
+  2 reactions
+* ❤️
+  6 reactions
+* 🚀
+  1 reaction
+* 👀
+  1 reaction
+
+
+
+ 17 people reacted
+
+
+
+
+
+
+Pikafish 2023-12-03
+-------------------
+
+03 Dec 14:20
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2023-12-03](/official-pikafish/Pikafish/tree/Pikafish-2023-12-03)
+
+[`dec732a`](/official-pikafish/Pikafish/commit/dec732afb4447c48345c26a0bd222aacb7f11915)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2023-12-03](/official-pikafish/Pikafish/releases/tag/Pikafish-2023-12-03)
+
+
+
+
+
+
+
+
+What's New:
+
+1. Rule refinement and now totally comply with <https://pikafish.org/rule.pdf>. since Pikafish is only focused on computer rule, all options related to old rule have been removed.
+2. Network architecture and weights updated, engine parameter tuned via SMP MTC.
+3. Enhanced zugzwang resilience, more tough positions can now be solved.
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+17
+ xiangqishare, cccttt12345, hoangson77ly, lovexifan, ieloug, yanzi668, vocanet, gaojianguo0311, freiz, QwertyJack, and 7 more reacted with thumbs up emoji
+ 🎉
+3
+ xland, QForge-Labs, and LOVEPIKA80 reacted with hooray emoji
+ ❤️
+6
+ cccttt12345, hoangson77ly, lovexifan, amonwu, gynbaaa, and LOVEPIKA80 reacted with heart emoji
+ 
+All reactions
+
+* 👍
+  17 reactions
+* 🎉
+  3 reactions
+* ❤️
+  6 reactions
+
+
+
+ 21 people reacted
+
+
+
+
+
+
+Pikafish 2023-03-05
+-------------------
+
+05 Mar 14:20
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2023-03-05](/official-pikafish/Pikafish/tree/Pikafish-2023-03-05)
+
+[`4762ca3`](/official-pikafish/Pikafish/commit/4762ca3c77c7f8ccbf204974cf23c5ca3e8c2783)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2023-03-05](/official-pikafish/Pikafish/releases/tag/Pikafish-2023-03-05)
+
+
+
+
+
+
+
+
+This release heavily increases playing strength at STC via parameter tweaks compared to Pikafish 2023-02-18 on <https://pikafish.org> :
+
+Slightly better at STC  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 24868 / 6340 / 12462 / 6066  
+
+PTNML: 174 / 2944 / 6034 / 2998 / 284  
+
+WinRate: 50.55%  
+
+ELO: 3.58[1.06, 6.07]  
+
+LOS: 99.72  
+
+LLR: 3.04[-2.94, 2.94]
+
+Horribly behind at LTC (within anti-plagiarism safe margin)  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 3652 / 732 / 1921 / 999  
+
+PTNML: 12 / 527 / 1009 / 272 / 6  
+
+WinRate: 46.34%  
+
+ELO: -24.84[-36.57, -13.65]  
+
+LOS: 0.00  
+
+LLR: -12.11[-2.94, 2.94]
+
+Compared with the last release on Github:
+
+Scales well at STC:  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 5220 / 1291 / 2997 / 932  
+
+PTNML: 18 / 452 / 1322 / 789 / 29  
+
+WinRate: 53.44%  
+
+ELO: 23.37[13.56, 33.47]  
+
+LOS: 100.00  
+
+LLR: 11.55[-2.94, 2.94]
+
+Scales well at LTC:  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 3142 / 790 / 1858 / 494  
+
+PTNML: 2 / 191 / 888 / 489 / 1  
+
+WinRate: 54.71%  
+
+ELO: 32.28[21.04, 44.26]  
+
+LOS: 100.00  
+
+LLR: 11.47[-2.94, 2.94]
+
+What's New:
+
+1. Introduced a new lossless feature merging architecture to reduce the size of the weights file while remains the same playing strength.
+2. Allow repetition fold changing.
+3. Add dot product instruction set support for Android devices, around 10% speed up measured.
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+20
+ hanyu-2563, ousc, caheosua1, amonwu, xiangqishare, sean2077, fsluobing, xmar33, leonwerth2703, gaojianguo0311, and 10 more reacted with thumbs up emoji
+ ❤️
+7
+ leonWerth2702, caheosua1, xmar33, xiangqishare, leonwerth2703, cccttt12345, and Along-Voyager reacted with heart emoji
+ 🚀
+2
+ QForge-Labs and Along-Voyager reacted with rocket emoji
+ 👀
+9
+ hanyu-2563, XInTheDark, midstreeeam, xmar33, leonwerth2703, 18237252, vocanet, Along-Voyager, and kellbee123 reacted with eyes emoji
+ 
+All reactions
+
+* 👍
+  20 reactions
+* ❤️
+  7 reactions
+* 🚀
+  2 reactions
+* 👀
+  9 reactions
+
+
+
+ 26 people reacted
+
+
+
+
+
+
+Pikafish 2023-02-16
+-------------------
+
+16 Feb 09:09
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2023-02-16](/official-pikafish/Pikafish/tree/Pikafish-2023-02-16)
+
+[`eee1c9a`](/official-pikafish/Pikafish/commit/eee1c9ad9970da3d5c5c16819a8791fdd3ed54c3)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2023-02-16](/official-pikafish/Pikafish/releases/tag/Pikafish-2023-02-16)
+
+
+
+
+
+
+
+
+This version is extremely powerful compared to 2022-12-26:  
+
+59.73 ELO stronger than 2022-12-26 in STC:  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 2302 / 771 / 1156 / 375  
+
+PTNML: 5 / 139 / 523 / 423 / 61  
+
+WinRate: 58.60%  
+
+ELO: 59.73[43.51, 78.12]  
+
+LOS: 100.00  
+
+LLR: 10.69[-2.94, 2.94]
+
+41.84 ELO stronger than 2022-12-26 in LTC:  
+
+Book: 3mvs 151-350\_1097123  
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 2378 / 689 / 1289 / 400  
+
+PTNML: 0 / 166 / 598 / 395 / 30  
+
+WinRate: 56.08%  
+
+ELO: 41.84[28.53, 56.26]  
+
+LOS: 100.00  
+
+LLR: 10.33[-2.94, 2.94]
+
+1. We switched to advisor and bishop missing bucketing NNUE architecture, an idea by mualanhlung017.
+2. Part of the Chinese Rule is also supported in this release. You can enable it by setting the `Repetition Rule` options to `ChineseRule`. In Chinese Rule, detection for the illegal sequence `x check y chase z mate threat` is enabled where x, y, and z do not equal zero simultaneously.
+3. For speed concerns, you can tweak the `Mate Threat Depth` option, it defines how many checks one side needs to make at most to form a checkmate when the opponent gives up moving this round. The larger the value, the slower the speed. Default to 1.
+4. When `Mate Threat Depth` is set to 0, it means that the engine does not detect `Mate Threat`, and the illegal sequence becomes `x check y chase` where x and y do not equal zero simultaneously
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+10
+ piladinmew, midstreeeam, shuangqiao999, amonwu, govc, yanlongbinluck, lurui1030, QForge-Labs, hoangson77ly, and xchacuasc reacted with thumbs up emoji
+ 🎉
+4
+ thericle, shuangqiao999, govc, and yghl945 reacted with hooray emoji
+ ❤️
+4
+ leonwerth2703, Quocvuong82, shuangqiao999, and govc reacted with heart emoji
+ 
+All reactions
+
+* 👍
+  10 reactions
+* 🎉
+  4 reactions
+* ❤️
+  4 reactions
+
+
+
+ 14 people reacted
+
+
+
+
+
+
+Pikafish 2022-12-26
+-------------------
+
+26 Dec 04:53
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2022-12-26](/official-pikafish/Pikafish/tree/Pikafish-2022-12-26)
+
+[`788de16`](/official-pikafish/Pikafish/commit/788de16ad45b8c15031b8ca72716603b9a555357)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2022-12-26](/official-pikafish/Pikafish/releases/tag/Pikafish-2022-12-26)
+
+
+
+
+
+
+
+
+Compared to version 2022-10-22, we are having 60 move rule and 3-fold repetition at root nodes that almost fully comply with 亚规 now.  
+
+In addition to that, we also use the WDL model for score outputs and add all of these as tweakable UCI options for convenience.  
+
+Strict threefold even in search is also an option disabled by default but will be great to enable when analyzing positions.  
+
+The new compression architecture has been applied and a new arch net has also been released.
+
+A small test confirmed at least 26 ELO gains against Pikafish version 2022-10-22:  
+
+Book: 3mvs 140-200\_150560  
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 1548 / 359 / 949 / 240  
+
+PTNML: 14 / 109 / 404 / 238 / 9  
+
+WinRate: 53.84%  
+
+ELO: 26.20[15.87, 36.90]  
+
+LOS: 100.00  
+
+LLR: 3.29[-1.56, 2.77]
+
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+6
+ leonwerth2703, Leelagozero, QwertyJack, stream004, xchacuasc, and ziyue123456789 reacted with thumbs up emoji
+ 🎉
+1
+ studentbotnet reacted with hooray emoji
+ ❤️
+5
+ leonwerth2703, QwertyJack, stream004, josephdinhtan, and ziyue123456789 reacted with heart emoji
+ 🚀
+5
+ piladinmew, leonwerth2703, Leelagozero, macteki, and stream004 reacted with rocket emoji
+ 
+All reactions
+
+* 👍
+  6 reactions
+* 🎉
+  1 reaction
+* ❤️
+  5 reactions
+* 🚀
+  5 reactions
+
+
+
+ 10 people reacted
+
+
+
+
+
+
+Pikafish 2022-10-22
+-------------------
+
+22 Oct 04:51
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2022-10-22](/official-pikafish/Pikafish/tree/Pikafish-2022-10-22)
+
+[`eb1dd01`](/official-pikafish/Pikafish/commit/eb1dd0106e68622700d4d0af86a5d4a16f101911)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2022-10-22](/official-pikafish/Pikafish/releases/tag/Pikafish-2022-10-22)
+
+
+
+
+
+
+
+
+This build still uses the nnue file trained using the same data as the last release, but with some adjustments, and gets a relatively good enhancement in LTC games. As for high score miseval in the endgame, wait for later releases.
+
+versus 2022.10.15  
+
+Book: 3 Moves 140-200 Red Advantage  
+
+TC: 10+0.1  
+
+Total/Win/Draw/Lose: 1974 / 497 / 1112 / 365  
+
+PTNML: 13 / 172 / 488 / 298 / 16  
+
+WinRate: 53.34%  
+
+ELO: 22.69[12.93, 32.71]  
+
+LOS: 100.00  
+
+LLR: 3.94[-2.94, 2.94]
+
+Book: 3 Moves 140-200 Red Advantage  
+
+TC: 60+0.6  
+
+Total/Win/Draw/Lose: 1954 / 448 / 1260 / 246  
+
+PTNML: 2 / 111 / 552 / 307 / 5  
+
+WinRate: 55.17%  
+
+ELO: 35.56[24.43, 47.48]  
+
+LOS: 100.00  
+
+LLR: 6.63[-2.94, 2.94]
+
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+11
+ skystarspython, bhwqy, doanthaiphong, DissociaDID, RaytonX, Leelagozero, 1258668838, sysulx, ieloug, rickyma, and xchacuasc reacted with thumbs up emoji
+ ❤️
+6
+ leonWerth2702, skystarspython, Leelagozero, 1258668838, thericle, and rickyma reacted with heart emoji
+ 
+All reactions
+
+* 👍
+  11 reactions
+* ❤️
+  6 reactions
+
+
+
+ 13 people reacted
+
+
+
+
+
+
+Pikafish 2022-10-15
+-------------------
+
+15 Oct 08:31
+
+
+![]()
+[PikaCat-OuO](/PikaCat-OuO)
+
+[Pikafish-2022-10-15](/official-pikafish/Pikafish/tree/Pikafish-2022-10-15)
+
+[`cd4ad84`](/official-pikafish/Pikafish/commit/cd4ad840c460448ea639c310810671093c24dda0)
+
+ 
+Compare
+
+
+
+
+
+Choose a tag to compare
+=======================
+
+
+
+
+ 
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+ 
+Filter
+
+
+ Loading
+
+
+
+
+
+
+
+ 
+
+
+
+
+Sorry, something went wrong.
+----------------------------
+
+
+
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+ 
+
+No results found
+----------------
+
+
+ 
+  
+[View all tags](/official-pikafish/Pikafish/tags)
+
+
+ 
+ 
+
+ 
+[Pikafish 2022-10-15](/official-pikafish/Pikafish/releases/tag/Pikafish-2022-10-15)
+
+
+
+
+
+
+
+
+This build plays at the level of the latest version of the commercial engine AlphaCat aka AlphaCatFriendly 2022-09-26.
+
+
+
+ 
+Assets
+3
+
+
+ 
+
+
+ Loading
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+
+
+ 👍
+9
+ piladinmew, skystarspython, doanthaiphong, rocyax, xlnn, DissociaDID, Leelagozero, xchacuasc, and ziyue123456789 reacted with thumbs up emoji
+ 🎉
+7
+ huynq55, gbtami, xiangqishare, mtaktikos, skystarspython, xlnn, and Leelagozero reacted with hooray emoji
+ ❤️
+2
+ leonWerth2702 and Leelagozero reacted with heart emoji
+ 
+All reactions
+
+* 👍
+  9 reactions
+* 🎉
+  7 reactions
+* ❤️
+  2 reactions
+
+
+
+ 14 people reacted
+
+
+
+
+
+
+Previous *1* [2](/official-pikafish/Pikafish/releases?page=2) [Next](/official-pikafish/Pikafish/releases?page=2)
+
+Previous [Next](/official-pikafish/Pikafish/releases?page=2)
+
+
+
+
+
+
+
+
+Footer
+------
+
+© 2026 GitHub, Inc.
+
+
+### Footer navigation
+
+* [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+* [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+* [Security](https://github.com/security)
+* [Status](https://www.githubstatus.com/)
+* [Community](https://github.community/)
+* [Docs](https://docs.github.com/)
+* [Contact](https://support.github.com?tags=dotcom-footer)
+* Manage cookies
+* Do not share my personal information
+
+
+
+
+You can’t perform that action at this time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

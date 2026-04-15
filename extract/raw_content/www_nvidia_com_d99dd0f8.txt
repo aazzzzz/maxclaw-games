@@ -1,0 +1,229 @@
+# Source URL: https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82127/
+# Content Length: 17460 characters
+# Extracted at: 2026-03-09 14:56:37
+#============================================================
+
+工业级具身智能，正在从概念走向现实
+\*\*AI Conference & Expo\*\* March 16–19, 2026 |\*\*Keynote\*\* March 16 |\*\*Workshops\*\* March 15 |\*\*San Jose, CA\*\*
+\* [My Account](https://www.nvidia.com/en-us/account/)
+\* [Log In](#)[LogOut](#)
++ [EN](#)
+- [한국어](https://www.nvidia.com/ko-kr/gtc/)
+- [日本語](https://www.nvidia.com/ja-jp/gtc/)
+- [繁中](https://www.nvidia.com/zh-tw/gtc/)
+- [简中](https://www.nvidia.cn/gtc-global/)
+- [DE](https://www.nvidia.com/de-de/gtc/)
+- [FR](https://www.nvidia.com/fr-fr/gtc/)
+PLATFORMS
+other links
+Keynote
+\* [Keynote](https://www.nvidia.com/gtc/keynote/?regcode=no-ncid&ncid=no-ncid)
+\* [\*GTC Live\* Pregame](https://www.nvidia.com/gtc/pregame/?regcode=no-ncid&ncid=no-ncid)
+[Session Catalog](https://www.nvidia.com/gtc/session-catalog/?regcode=no-ncid&ncid=no-ncid)
+Explore
+\* [Conference Schedule](https://www.nvidia.com/gtc/conference-schedule/?regcode=no-ncid&ncid=no-ncid)
+\* [Conference Topics](https://www.nvidia.com/gtc/conference-topics/?regcode=no-ncid&ncid=no-ncid)
+\* [Connect With the Experts](https://www.nvidia.com/gtc/connect-with-experts/?regcode=no-ncid&ncid=no-ncid)
+\* [Exhibit Hall](https://www.nvidia.com/gtc/exhibits/?regcode=no-ncid&ncid=no-ncid)
+\* [Speakers](https://www.nvidia.com/gtc/speakers/?regcode=no-ncid&ncid=no-ncid)
+\* [Startups & VCs](https://www.nvidia.com/gtc/startups/?regcode=no-ncid&ncid=no-ncid)
+\* [Workshops, Training Labs & Certification](https://www.nvidia.com/gtc/training/?regcode=no-ncid&ncid=no-ncid)
+Attend
+\* [Bring Your Team](https://www.nvidia.com/gtc/bring-your-team/?regcode=no-ncid&ncid=no-ncid)
+\* [Pricing](https://www.nvidia.com/gtc/pricing/?regcode=no-ncid&ncid=no-ncid)
+\* [Travel and Venue](https://www.nvidia.com/gtc/travel-and-venue/?regcode=no-ncid&ncid=no-ncid)
+[Sponsors & Exhibitors](https://www.nvidia.com/gtc/sponsors/?regcode=no-ncid&ncid=no-ncid)
+More
+\* [Code of Conduct](https://www.nvidia.com/gtc/code-of-conduct/?regcode=no-ncid&ncid=no-ncid)
+\* [Contact Us](https://www.nvidia.com/gtc/contact/?regcode=no-ncid&ncid=no-ncid)
+\* [FAQ](https://www.nvidia.com/gtc/faq/?regcode=no-ncid&ncid=no-ncid)
+\* [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?regcode=no-ncid&ncid=no-ncid)
+\* [See All GTC Events](https://www.nvidia.com/gtc/events/?regcode=no-ncid&ncid=no-ncid)
+\* Keynote
++ [Keynote](https://www.nvidia.com/gtc/keynote/)
++ [\*GTC Live\* Pregame](https://www.nvidia.com/gtc/pregame/)
+\* [Session Catalog](https://www.nvidia.com/gtc/session-catalog/)
+\* Explore
++ [Conference Schedule](https://www.nvidia.com/gtc/conference-schedule/)
++ [Conference Topics](https://www.nvidia.com/gtc/conference-topics/)
++ [Connect With the Experts](https://www.nvidia.com/gtc/connect-with-experts/)
++ [Exhibit Hall](https://www.nvidia.com/gtc/exhibits/)
++ [Speakers](https://www.nvidia.com/gtc/speakers/)
++ [Startups & VCs](https://www.nvidia.com/gtc/startups/)
++ [Workshops, Training Labs & Certification](https://www.nvidia.com/gtc/training/)
+\* Attend
++ [Bring Your Team](https://www.nvidia.com/gtc/bring-your-team/)
++ [Pricing](https://www.nvidia.com/gtc/pricing/)
++ [Travel and Venue](https://www.nvidia.com/gtc/travel-and-venue/)
+\* [Sponsors & Exhibitors](https://www.nvidia.com/gtc/sponsors/)
+\* More
++ [Code of Conduct](https://www.nvidia.com/gtc/code-of-conduct/)
++ [Contact Us](https://www.nvidia.com/gtc/contact/)
++ [FAQ](https://www.nvidia.com/gtc/faq/)
++ [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/)
++ [See All GTC Events](https://www.nvidia.com/gtc/events/)
++ [EN](#)
+- [한국어](https://www.nvidia.com/ko-kr/gtc/)
+- [日本語](https://www.nvidia.com/ja-jp/gtc/)
+- [繁中](https://www.nvidia.com/zh-tw/gtc/)
+- [简中](https://www.nvidia.cn/gtc-global/)
+- [DE](https://www.nvidia.com/de-de/gtc/)
+- [FR](https://www.nvidia.com/fr-fr/gtc/)
+[\*\*Register\*\* \*\*Now\*\*  |  \*\*Log In\*\*](https://register.nvidia.com/flow/nvidia/gtc26/reg?regcode=no-ncid&ncid=no-ncid)
+[\*\*Register\*\* \*\*Now\*\*  |  \*\*Log In\*\*](https://register.nvidia.com/flow/nvidia/gtc26/reg?regcode=no-ncid&ncid=no-ncid)
+\* [Keynote](#)
++ [Keynote](#)
++ [Keynote](https://www.nvidia.com/gtc/keynote/)
++ [\*GTC Live\* Pregame](https://www.nvidia.com/gtc/pregame/)
+\* [Session Catalog](https://www.nvidia.com/gtc/session-catalog/)
+\* [Explore](#)
++ [Explore](#)
++ [Conference Schedule](https://www.nvidia.com/gtc/conference-schedule/)
++ [Conference Topics](https://www.nvidia.com/gtc/conference-topics/)
++ [Connect With the Experts](https://www.nvidia.com/gtc/connect-with-experts/)
++ [Exhibit Hall](https://www.nvidia.com/gtc/exhibits/)
++ [Speakers](https://www.nvidia.com/gtc/speakers/)
++ [Startups & VCs](https://www.nvidia.com/gtc/startups/)
++ [Workshops, Training Labs & Certification](https://www.nvidia.com/gtc/training/)
+\* [Attend](#)
++ [Attend](#)
++ [Bring Your Team](https://www.nvidia.com/gtc/bring-your-team/)
++ [Pricing](https://www.nvidia.com/gtc/pricing/)
++ [Travel and Venue](https://www.nvidia.com/gtc/travel-and-venue/)
+\* [Sponsors & Exhibitors](https://www.nvidia.com/gtc/sponsors/)
+\* [More](#)
++ [More](#)
++ [Code of Conduct](https://www.nvidia.com/gtc/code-of-conduct/)
++ [Contact Us](https://www.nvidia.com/gtc/contact/)
++ [FAQ](https://www.nvidia.com/gtc/faq/)
++ [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/)
++ [See All GTC Events](https://www.nvidia.com/gtc/events/)
+Back to Session Catalog
+Talk
+Virtual
+# 工业级具身智能，正在从概念走向现实 [S82127]
+\*\*鹤 王\*\*| 北京大学助理教授、银河通用机器人创始人 & CTO | 北京银河通用机器人股份有限公司
+依托合成数据驱动的具身 VLA 大模型，Galbot G1 在通用性与泛化能力上实现关键突破，真正打通了通用机器人从感知、决策到执行的闭环，并在复杂、非结构化的真实世界环境中验证了其可靠能力。打造高质量仿真数据是我们的核心优势。通过与 NVIDIA Isaac Sim 的深度合作，我们构建了一套可规模化、具备确定性的训练与验证路径，使机器人能够系统性地掌握全身协同控制、灵巧操作等高阶技能。与此同时，随着 NVIDIA Jetson Thor 的性能释放， Galbot G1 Premium 的自主工作能力得到进一步提升，在严苛的工业环境中显著提升了实时规划能力与整体执行性能，推动具身智能迈向更高水平的工业应用。
+\*\*Industry:\*\* Academia / Higher Education
+\*\*Topic:\*\* Robotics - Humanoid Robots
+\*\*Technical Level:\*\* Technical - Beginner
+\*\*Intended Audience:\*\* Research: Academic
+\*\*NVIDIA Technology:\*\* Jetson, AGX
+\*\*Key Takeaways:\*\*
+\* 工业具身 AI 时代已至。Galbot G1 的成功现实部署完成了对通用机器人承诺的闭环验证，展现了其在复杂、非结构化环境中经过验证的泛化能力
+\* 仿真是我们的核心能力。我们与 Isaac Sim 的合作展示了一条掌握复杂机器人技能（如全身控制与灵巧操作）的确定性路径
+\* NVIDIA Jetson Thor 是通往更高自主性的引擎。搭载 NVIDIA Jetson Thor 的 Galbot G1 Premium，显著提升了在复杂工业环境中的自主规划与操作性能
+[Add to Schedule](https://register.nvidia.com/flow/nvidia/gtc26/ap/page/catalog/session/1765944263643001Vzlm)
+Sunday, March 15  |  11:00 p.m. - 11:50 p.m.
+Explore
+\* [Conference Schedule](https://www.nvidia.com/gtc/conference-schedule/)
+\* [Conference Topics](https://www.nvidia.com/gtc/conference-topics/)
+\* [Connect With the Experts](https://www.nvidia.com/gtc/connect-with-experts/)
+\* [Exhibit Hall](https://www.nvidia.com/gtc/exhibits/)
+\* [Session Catalog](https://www.nvidia.com/gtc/session-catalog/)
+\* [Speakers](https://www.nvidia.com/gtc/speakers/)
+\* [Startups & VCs](https://www.nvidia.com/gtc/startups/)
+\* [Workshops, Training Labs & Certification](https://www.nvidia.com/gtc/training/)
+Discover
+\* [Bring Your Team](https://www.nvidia.com/gtc/bring-your-team/)
+\* [\*GTC Live\* Pregame](https://www.nvidia.com/gtc/pregame/)
+\* [Keynote](https://www.nvidia.com/gtc/keynote/)
+\* [Pricing](https://www.nvidia.com/gtc/pricing/)
+\* [Sponsors & Exhibitors](https://www.nvidia.com/gtc/sponsors/)
+\* [Travel and Venue](https://www.nvidia.com/gtc/travel-and-venue/)
+More
+\* [Code of Conduct](https://www.nvidia.com/gtc/code-of-conduct/)
+\* [Contact Us](https://www.nvidia.com/gtc/contact/)
+\* [FAQ](https://www.nvidia.com/gtc/faq/)
+\* [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/)
+\* [See All GTC Events](https://www.nvidia.com/gtc/events/)
+\*\*#NVIDIAGTC\*\*
+NVIDIA
+[United States](https://www.nvidia.com/object/country-selector.html)
+\* [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/)
+\* [Your Privacy Choices](https://www.nvidia.com/en-us/about-nvidia/privacy-center/)
+\* [Terms of Service](https://www.nvidia.com/en-us/about-nvidia/terms-of-service/)
+\* [Accessibility](https://www.nvidia.com/en-us/about-nvidia/accessibility/)
+\* [Corporate Policies](https://www.nvidia.com/en-us/about-nvidia/company-policies/)
+\* [Product Security](https://www.nvidia.com/en-us/product-security/)
+\* [Contact](https://www.nvidia.com/en-us/contact/)
+Copyright © 2026 NVIDIA Corporation
+Select Location
+The Americas
+\* [Argentina](https://www.nvidia.com/es-la/)
+\* [Brasil (Brazil)](https://www.nvidia.com/pt-br/)
+\* [Canada](https://www.nvidia.com/gtc/session-catalog/sessions/)
+\* [Chile](https://www.nvidia.com/es-la/)
+\* [Colombia](https://www.nvidia.com/es-la/)
+\* [México (Mexico)](https://www.nvidia.com/es-la/)
+\* [Peru](https://www.nvidia.com/es-la/)
+\* [United States](https://www.nvidia.com/gtc/session-catalog/sessions/)
+Europe
+\* [België (Belgium)](https://www.nvidia.com/nl-nl/)
+\* [Belgique (Belgium)](https://www.nvidia.com/fr-be/)
+\* [Česká Republika (Czech Republic)](https://www.nvidia.com/cs-cz/)
+\* [Danmark (Denmark)](https://www.nvidia.com/da-dk/)
+\* [Deutschland (Germany)](https://www.nvidia.com/de-de/)
+\* [España (Spain)](https://www.nvidia.com/es-es/)
+\* [France](https://www.nvidia.com/fr-fr/)
+\* [Italia (Italy)](https://www.nvidia.com/it-it/)
+\* [Nederland (Netherlands)](https://www.nvidia.com/nl-nl/)
+\* [Norge (Norway)](https://www.nvidia.com/nb-no/)
+\* [Österreich (Austria)](https://www.nvidia.com/de-at/)
+\* [Polska (Poland)](https://www.nvidia.com/pl-pl/)
+\* [România (Romania)](https://www.nvidia.com/ro-ro/)
+\* [Suomi (Finland)](https://www.nvidia.com/fi-fi/)
+\* [Sverige (Sweden)](https://www.nvidia.com/sv-se/)
+\* [Türkiye (Turkey)](https://www.nvidia.com/tr-tr/)
+\* [United Kingdom](https://www.nvidia.com/en-gb/)
+\* [Rest of Europe](https://www.nvidia.com/en-eu/)
+Asia
+\* [Australia](https://www.nvidia.com/en-au/)
+\* [中国大陆 (Mainland China)](https://www.nvidia.cn/gtc/session-catalog/sessions/)
+\* [India](https://www.nvidia.com/en-in/)
+\* [日本 (Japan)](https://www.nvidia.com/ja-jp/gtc/session-catalog/sessions/)
+\* [대한민국 (South Korea)](https://www.nvidia.com/ko-kr/gtc/session-catalog/sessions/)
+\* [Singapore](https://www.nvidia.com/en-sg/)
+\* [台灣 (Taiwan)](https://www.nvidia.com/zh-tw/gtc/session-catalog/sessions/)
+Middle East
+\* [Middle East](https://www.nvidia.com/en-me/)
+Opt-Out Request Honored
+NVIDIA uses cookies to improve your experience on our web site. We and our third-party partners also use cookies and other tools to collect and record information you provide as well as information about your interactions with our websites for performance improvement, analytics, and to assist in marketing efforts. By continuing to use this site or by clicking one of the buttons below, you agree to the use of cookies and other tools as described in our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/) and [Cookie Policy](https://www.nvidia.com/en-us/about-nvidia/cookie-policy/) (subject to your settings) and accept our [Terms of Service](https://www.nvidia.com/en-us/about-nvidia/terms-of-service/) (which contains important waivers). Please see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/) for more information on our privacy practices.
+We have detected the Global Privacy Control (GPC) signal and have opted you out of all optional cookies on this site for this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our [Cookie Policy](https://www.nvidia.com/en-us/about-nvidia/cookie-policy/) for more information. To opt out of non-cookie personal information "sales" / "sharing" for targeted advertising purposes, please visit the [NVIDIA Preference Center](https://www.nvidia.com/en-us/privacy-center/). Please see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/) for more information on our privacy practices.
+We have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our [Cookie Policy](https://www.nvidia.com/en-us/about-nvidia/cookie-policy/) for more information. We have also opted you out of "sharing"/"sales" of personal information outside of cookies. You can manage these settings in the NVIDIA [NVIDIA Preference Center](https://www.nvidia.com/en-us/privacy-center/). Please see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/) for more information.
+We have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our [Cookie Policy](https://www.nvidia.com/en-us/about-nvidia/cookie-policy/) for more information. We have also opted you out of "sharing"/"sales" of personal information outside of cookies which overrides at least one of your previous settings. You can manage them in the [NVIDIA Preference Center](https://www.nvidia.com/en-us/privacy-center/). Please see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/) for more information.
+Manage Settings
+Turn Off Optional CookiesAgree
+Done
+![](https://cdn.cookielaw.org/logos/10ddf4ca-c072-45d0-b3ac-eead0ed93db0/6e17f6e4-c77b-4a11-9f34-c107c42e4bfc/7981.png)
+Cookie Settings
+We and our third-party partners (including social media, advertising, and analytics partners) use cookies and other tracking technologies to collect, store, monitor, and process certain information about you when you visit our website. The information collected might relate to you, your preferences, or your device. We use that information to make the site work, analyze performance and traffic on our website, provide a more personalized web experience, and assist in our marketing efforts.Under certain privacy laws, you have the right to direct us not to "sell" or "share" your personal information for targeted advertising. To opt-out of the "sale" and "sharing" of personal information through cookies, you must opt-out of optional cookies using the toggles below. To opt out of the "sale" and "sharing" of data collected by other means (e.g., online forms) you must also update your data sharing preferences through the [NVIDIA Preference Center](https://www.nvidia.com/en-us/about-nvidia/privacy-center/).Click on the different category headings below to find out more and change the settings according to your preference. You cannot opt out of Required Cookies as they are deployed to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, etc.). By clicking "Save and Accept" or "Decline All" at the bottom, you consent to the use of cookies and other tools as described in our [Cookie Policy](https://www.nvidia.com/en-us/about-nvidia/cookie-policy/) in accordance with your settings and accept our [Terms of Service](https://www.nvidia.com/en-us/about-nvidia/terms-of-service/) (which contains important waivers). For more information about our privacy practices, please see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/).
+Required Cookies
+Always Active
+These cookies enable core functionality such as security, network management, and accessibility. These cookies are required for the site to function and cannot be turned off.
+Cookies Details
+Performance Cookies
+Performance Cookies
+These cookies are used to provide quantitative measures of our website visitors, such as the number of times you visit, time on page, your mouse movements, scrolling, clicks and keystroke activity on the websites; other browsing, search, or product research behavior; and what brought you to our site. These cookies may store a unique ID so that our system will remember you when you return. Information collected with these cookies is used to measure and find ways to improve website performance.
+Cookies Details
+Personalization Cookies
+Personalization Cookies
+These cookies collect data about how you have interacted with our website to help us improve your web experience, such as which pages you have visited. These cookies may store a unique ID so that our system will remember you when you return. They may be set by us or by third party providers whose services we have added to our pages. These cookies enable us to provide enhanced website functionality and personalization as well as make the marketing messages we send to you more relevant to your interests. If you do not allow these cookies, then some or all of these services may not function properly.
+Cookies Details
+Advertising Cookies
+Advertising Cookies
+These cookies record your visit to our websites, the pages you have visited and the links you have followed to influence the advertisements that you see on other websites. These cookies and the information they collect may be managed by other companies, including our advertising partners, and may be used to build a profile of your interests and show you relevant advertising on other sites. We and our advertising partners will use this information to make our websites and the advertising displayed on it, more relevant to your interests.
+Cookies Details
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+\* checkbox labellabel
+ApplyCancel
+ConsentLeg.Interest
+checkbox labellabel
+checkbox labellabel
+checkbox labellabel
+Decline AllSave and Accept
+[![](https://cdn.cookielaw.org/logos/static/powered\_by\_logo.svg)](https://www.onetrust.com/products/cookie-consent/)
