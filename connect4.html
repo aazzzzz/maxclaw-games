@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Connect 4 · 四子棋</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:#0a0a18;min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-family:'PingFang SC','Microsoft YaHei',sans-serif;
+  color:#e8d5b0;padding:12px;gap:10px
+}
+h1{font-size:1.3rem;letter-spacing:.18em;color:#c8a040}
+.top{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center}
+.ti{
+  padding:5px 14px;border-radius:18px;font-weight:700;font-size:.82rem;
+  border:2px solid;min-width:150px;text-align:center
+}
+.ti-p1{background:#1a1020;color:#ff88cc;border-color:#cc44aa}
+.ti-p2{background:#101a30;color:#88ccff;border-color:#4488cc}
+.ti-done{background:#1a2a1a;color:#aaffaa;border-color:#44cc44}
+canvas{
+  display:block;border-radius:10px;
+  box-shadow:0 12px 50px rgba(0,0,0,.8),0 0 0 3px #4488cc;
+  cursor:pointer
+}
+.bar{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center}
+.btn{
+  padding:7px 16px;border-radius:8px;border:1px solid #c8a040;
+  background:rgba(200,160,64,.15);color:#c8a040;cursor:pointer;
+  font-family:inherit;font-size:.85rem;transition:background .2s
+}
+.btn:hover{background:rgba(200,160,64,.3)}
+.mode{display:flex;gap:6px}
+.modebtn{
+  padding:5px 12px;border-radius:6px;border:1px solid rgba(200,160,64,.35);
+  background:rgba(200,160,64,.08);color:#c8a040;cursor:pointer;
+  font-family:inherit;font-size:.78rem;transition:background .2s
+}
+.modebtn:hover,.modebtn.active{background:rgba(200,160,64,.3)}
+.hint{font-size:.75rem;color:#445566;text-align:center}
+</style>
+</head>
+<body>
+<a href="./index.html" style="position:fixed;top:12px;left:16px;z-index:99;padding:6px 14px;background:rgba(200,160,64,.15);border:1px solid rgba(200,160,64,.4);color:#c8a040;border-radius:8px;font-size:.8rem;text-decoration:none;backdrop-filter:blur(4px)">🏠 返回主页</a>
+<h1>🟡 Connect 4</h1>
+<div class="top"><div class="ti ti-p1" id="ti">🔴 红方回合</div></div>
+<canvas id="c"></canvas>
+<div class="bar">
+  <button class="btn" onclick="resetGame()">重新开始</button>
+  <div class="mode">
+    <button class="modebtn active" id="btnPVP" onclick="setMode('pvp')">双人对战</button>
+    <button class="modebtn" id="btnAI" onclick="setMode('ai')">对战AI</button>
+  </div>
+</div>
+<p class="hint">点击列投放 · 四子连珠获胜</p>
+
+<script>
+(function(){
+  var COLS=7,ROWS=6;
+  var canvas=document.getElementById('c');
+  // IMPORTANT: set dimensions BEFORE getting context
+  canvas.width=COLS*64;
+  canvas.height=ROWS*64;
+  var ctx=canvas.getContext('2d');
+
+  var board,currentPlayer,gameOver,gameMode,hoverCol,moveCount,winCells;
+  var animPiece=null;
+  var RED='#e84040',YELLOW='#f5c518',BLUE='#2266cc',EMPTY=0;
+
+  function resize(){
+    var avail=Math.min(window.innerWidth-24,window.innerHeight-200);
+    var scale=avail/(COLS*64);
+    canvas.style.width=Math.floor(COLS*64*scale)+'px';
+    canvas.style.height=Math.floor(ROWS*64*scale)+'px';
+  }
+
+  function resetGame(){
+    board=[];for(var r=0;r<ROWS;r++){board[r]=[];for(var c=0;c<COLS;c++)board[r][c]=EMPTY}
+    currentPlayer=1;gameOver=false;hoverCol=-1;moveCount=0;winCells=null;animPiece=null;
+    setStatus('🔴 红方回合','ti-p1');resize();draw();
+  }
+
+  function setStatus(t,c){document.getElementById('ti').textContent=t;document.getElementById('ti').className='ti '+c;}
+
+  // Drawing scale: always work in logical pixel coordinates (COLS*64)
+  function draw(){
+    var CSS_W=parseFloat(canvas.style.width)||(COLS*64);
+    var CSS_H=parseFloat(canvas.style.height)||(ROWS*64);
+    var scaleX=COLS*64/CSS_W;
+    var scaleY=ROWS*64/CSS_H;
+
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    // Board background
+    ctx.fillStyle=BLUE;
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+
+    // Slots and pieces
+    for(var r=0;r<ROWS;r++)for(var c=0;c<COLS;c++){
+      var px=c*64+32,py=r*64+32,R=64*0.42;
+      // Hole
+      ctx.fillStyle='#0a1a3a';
+      ctx.beginPath();ctx.arc(px,py,R,0,Math.PI*2);ctx.fill();
+
+      if(board[r][c]===1)drawPiece(px,py,64*0.38,RED);
+      else if(board[r][c]===2)drawPiece(px,py,64*0.38,YELLOW);
+    }
+
+    // Hover column highlight
+    if(!gameOver&&hoverCol>=0&&hoverCol<COLS){
+      var dropY=getDropY(hoverCol);
+      var x=hoverCol*64;
+      ctx.fillStyle='rgba(255,255,255,0.07)';
+      ctx.fillRect(x,0,64,canvas.height);
+      ctx.strokeStyle='rgba(255,255,255,0.3)';
+      ctx.lineWidth=2;
+      ctx.strokeRect(x+1,1,62,canvas.height-2);
+      // Preview piece
+      if(dropY>=0&&(gameMode==='pvp'||currentPlayer===1)){
+        ctx.globalAlpha=0.55;
+        drawPiece(x+32,32,64*0.35,currentPlayer===1?RED:YELLOW);
+        ctx.globalAlpha=1;
+      }
+    }
+
+    // Animating piece
+    if(animPiece){
+      var p=animPiece;
+      var ease=p.t<.5?2*p.t*p.t:1-Math.pow(-2*p.t+2,2)/2;
+      var y=p.fromY+(p.toY-p.fromY)*ease;
+      drawPiece(p.x,y,p.r,p.color);
+    }
+
+    // Win highlights
+    if(gameOver&&winCells){
+      for(var i=0;i<winCells.length;i++){
+        var px=winCells[i].c*64+32,py=winCells[i].r*64+32;
+        ctx.strokeStyle='#fff';ctx.lineWidth=3;ctx.lineCap='round';
+        ctx.beginPath();ctx.arc(px,py,64*0.36,0,Math.PI*2);ctx.stroke();
+      }
+    }
+  }
+
+  function drawPiece(x,y,r,color){
+    ctx.fillStyle='rgba(0,0,0,.22)';
+    ctx.beginPath();ctx.arc(x+1.5,y+2.5,r,0,Math.PI*2);ctx.fill();
+    var g=ctx.createRadialGradient(x-r*.3,y-r*.3,0,x,y,r);
+    g.addColorStop(0,lighten(color,.35));
+    g.addColorStop(.7,color);
+    g.addColorStop(1,darken(color,.2));
+    ctx.fillStyle=g;
+    ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();
+    ctx.strokeStyle=darken(color,.2);ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.stroke();
+    ctx.fillStyle='rgba(255,255,255,.28)';
+    ctx.beginPath();ctx.arc(x-r*.28,y-r*.28,r*.28,0,Math.PI*2);ctx.fill();
+  }
+
+  function lighten(h,a){var c=parseInt(h.slice(1),16);var r=Math.min(255,((c>>16)&0xff)+Math.round(255*a));var g=Math.min(255,((c>>8)&0xff)+Math.round(255*a));var b=Math.min(255,(c&0xff)+Math.round(255*a));return'rgb('+r+','+g+','+b+')'}
+  function darken(h,a){var c=parseInt(h.slice(1),16);var r=Math.max(0,((c>>16)&0xff)-Math.round(255*a));var g=Math.max(0,((c>>8)&0xff)-Math.round(255*a));var b=Math.max(0,(c&0xff)-Math.round(255*a));return'rgb('+r+','+g+','+b+')'}
+
+  function getDropY(col){for(var r=ROWS-1;r>=0;r--)if(board[r][col]===EMPTY)return r;return-1}
+
+  function checkWin(col,row,player){
+    var dirs=[[1,0],[0,1],[1,1],[1,-1]];
+    for(var d=0;d<4;d++){
+      var dr=dirs[d][0],dc=dirs[d][1],cells=[{r:row,c:col}];
+      for(var i=1;i<4;i++){var nr=row+dr*i,nc=col+dc*i;if(nr<0||nr>=ROWS||nc<0||nc>=COLS||board[nr][nc]!==player)break;cells.push({r:nr,c:nc})}
+      for(var i=1;i<4;i++){var nr=row-dr*i,nc=col-dc*i;if(nr<0||nr>=ROWS||nc<0||nc>=COLS||board[nr][nc]!==player)break;cells.push({r:nr,c:nc})}
+      cells.sort(function(a,b){return a.r*COLS+a.c-b.r*COLS-b.c});
+      if(cells.length>=4){winCells=cells.slice(0,4);return true}
+    }
+    return false;
+  }
+
+  function isDraw(){for(var c=0;c<COLS;c++)if(board[0][c]===EMPTY)return false;return true}
+
+  function placePiece(col,player,animated){
+    var dropY=getDropY(col);if(dropY<0)return false;
+    if(animated){
+      animPiece={x:col*64+32,fromY:-64,toY:dropY*64+32,r:64*0.38,color:player===1?RED:YELLOW,t:0,col:col,dropY:dropY,player:player};
+      animateDrop();
+    }else{
+      board[dropY][col]=player;moveCount++;
+      if(checkWin(col,dropY,player)){gameOver=true;setStatus(player===1?'🔴 红方获胜！':'🟡 黄方获胜！','ti-done');draw();return true}
+      if(isDraw()){gameOver=true;setStatus('🤝 平局！','ti-done');draw();return true}
+      currentPlayer=player===1?2:1;
+      setStatus(currentPlayer===1?'🔴 红方回合':'🟡 黄方回合',currentPlayer===1?'ti-p1':'ti-p2');hoverCol=-1;draw();
+    }
+    return true;
+  }
+
+  function animateDrop(){
+    var start=null,dur=350;
+    function step(ts){
+      if(!start)start=ts;
+      var t=Math.min((ts-start)/dur,1);
+      var ease=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+      animPiece.t=ease;draw();
+      var p=animPiece;
+      var y=p.fromY+(p.toY-p.fromY)*ease;
+      drawPiece(p.x,y,p.r,p.color);
+      if(t<1){requestAnimationFrame(step);return}
+      animPiece=null;
+      board[p.dropY][p.col]=p.player;moveCount++;
+      if(checkWin(p.col,p.dropY,p.player)){gameOver=true;setStatus(p.player===1?'🔴 红方获胜！':'🟡 黄方获胜！','ti-done');draw();return}
+      if(isDraw()){gameOver=true;setStatus('🤝 平局！','ti-done');draw();return}
+      currentPlayer=p.player===1?2:1;
+      setStatus(currentPlayer===1?'🔴 红方回合':'🟡 黄方回合',currentPlayer===1?'ti-p1':'ti-p2');hoverCol=-1;draw();
+      if(gameMode==='ai'&&currentPlayer===2&&!gameOver)setTimeout(aiMove,600);
+    }
+    requestAnimationFrame(step);
+  }
+
+  // AI
+  function aiMove(){placePiece(bestCol(),2,true)}
+
+  function bestCol(){
+    for(var c=0;c<COLS;c++){var r=getDropY(c);if(r<0)continue;board[r][c]=2;if(checkWin(c,r,2)){board[r][c]=0;return c}board[r][c]=0}
+    for(var c=0;c<COLS;c++){var r=getDropY(c);if(r<0)continue;board[r][c]=1;if(checkWin(c,r,1)){board[r][c]=0;return c}board[r][c]=0}
+    var best=-Infinity,bestC=3;
+    for(var c=0;c<COLS;c++){
+      var r=getDropY(c);if(r<0)continue;
+      board[r][c]=2;var sc=simpleEval(2);board[r][c]=0;
+      if(sc>best){best=sc;bestC=c}
+    }
+    return bestC;
+  }
+
+  function simpleEval(player){
+    var score=0,cc=COLS/2;
+    for(var r=0;r<ROWS;r++)for(var c=0;c<COLS;c++){
+      if(board[r][c]===player){
+        score+=(3-Math.abs(c-cc))*2;
+        var dirs=[[1,0],[0,1],[1,1],[1,-1]];
+        for(var d=0;d<4;d++){
+          var dr=dirs[d][0],dc=dirs[d][1],cnt=0,open=0;
+          for(var i=0;i<5;i++){var nr=r+dr*i,nc=c+dc*i;if(nr<0||nr>=ROWS||nc<0||nc>=COLS)break;if(board[nr][nc]===player)cnt++;else{if(!board[nr][nc])open++;break}}
+          for(var i=1;i<5;i++){var nr=r-dr*i,nc=c-dc*i;if(nr<0||nr>=ROWS||nc<0||nc>=COLS)break;if(board[nr][nc]===player)cnt++;else{if(!board[nr][nc])open++;break}}
+          if(cnt===3&&open>0)score+=500;if(cnt===2&&open>1)score+=50;
+        }
+      }
+    }
+    return score;
+  }
+
+  // Input: map click/touch to column
+  function getCol(clientX){
+    var rect=canvas.getBoundingClientRect();
+    var CSS_W=parseFloat(canvas.style.width)||canvas.width;
+    var scaleX=canvas.width/CSS_W;
+    return Math.floor((clientX-rect.left)*scaleX/64);
+  }
+
+  function handleInput(clientX){
+    if(gameOver)return;
+    if(gameMode==='ai'&&currentPlayer===2)return;
+    var col=getCol(clientX);
+    if(col<0||col>=COLS)return;
+    if(placePiece(col,currentPlayer,false)&&gameMode==='ai'&&currentPlayer===2&&!gameOver){
+      setTimeout(aiMove,600);
+    }
+  }
+
+  canvas.addEventListener('mousemove',function(e){hoverCol=getCol(e.clientX);draw()});
+  canvas.addEventListener('mouseleave',function(){hoverCol=-1;draw()});
+  canvas.addEventListener('click',function(e){handleInput(e.clientX)});
+  canvas.addEventListener('touchend',function(e){e.preventDefault();handleInput(e.changedTouches[0].clientX)},{passive:false});
+  canvas.addEventListener('touchstart',function(e){e.preventDefault();hoverCol=getCol(e.touches[0].clientX);draw()},{passive:false});
+
+  function setMode(m){gameMode=m;document.querySelectorAll('.modebtn').forEach(function(b){b.classList.remove('active')});document.getElementById(m==='pvp'?'btnPVP':'btnAI').classList.add('active');resetGame()}
+
+  window.resetGame=resetGame;
+  window.setMode=setMode;
+
+  resize();
+  window.addEventListener('resize',function(){resize();draw()});
+  resetGame();
+})();
+</script>
+</body>
+</html>
